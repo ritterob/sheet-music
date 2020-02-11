@@ -16,17 +16,20 @@
 
 
 global = {
- 	\key c \major
- 	\time 4/4
+ 	\key f \major
+ 	\time 6/8
 	\aikenHeads
-  \huge
-  \override Score.BarNumber.break-visibility = ##(#f #f #f)
- 	%\partial 4
+  	\huge
+  	\override Score.BarNumber.break-visibility = ##(#f #f #f)
+	\partial 8
 }
 
 
 soprano = \relative c'' {
  	\global
+	c,8 c( f) a a4 bes8 a4 g8 g4 c,8 c( e) g bes4 bes8 bes4.( a4)
+	c,8 c( f) a c4 c8 c4 bes8 a4 g8 f( e) f a4 g8 g4.( f4)
+
 }
 
 
@@ -49,6 +52,10 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	The stat -- utes of the Lord are right,
+	And do re -- joice the heart;
+	The Lord's com -- mand is pure, and doth
+	Light to the eyes impart.
 }
 
 
