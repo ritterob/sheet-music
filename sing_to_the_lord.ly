@@ -2,7 +2,7 @@
 
 \header {
  	title = "Sing to the Lord"
- 	composer = ""
+ 	composer = "R.R."
  	poet = "Rob Ritter"
 	tagline = ""
 }
@@ -103,7 +103,6 @@ verseTwo = \lyricmode {
 	O sing we un -- to the Lord!
 	Al -- le -- lu -- ia! Al -- le -- lu -- ia!
 	O sing we un -- to the Lord!
-
 }
 
 
