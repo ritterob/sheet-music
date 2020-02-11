@@ -31,7 +31,7 @@ soprano = \relative c'' {
   des4 c bes c2 bes8 aes | bes4 ees d ees2. |
 	aes,2 aes8 aes aes4 bes c | des c  bes c2 bes8 c |
   des4 c bes ees aes, g | aes2. b4\rest
-	%\bar "||" \break
+	\bar "||"
 	ees c | f( ees8 des c4) bes des bes | ees( des8 c bes4) aes2 
   c4 | des( c) bes g g bes | c2( des4 ees)
 	ees c | f( ees8 des c4) bes des bes | ees( des8 c bes4) aes2 
