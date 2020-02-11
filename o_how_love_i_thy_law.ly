@@ -71,7 +71,7 @@ verseOne = \lyricmode {
 	The stat -- utes of the Lord are right,
 	And do re -- joice the heart;
 	The Lord's com -- mand is pure, and doth
-	Light to the eyes impart.
+	Light to the eyes im -- part.
 }
 
 verseTwo = \lyricmode {
