@@ -7,13 +7,11 @@
 	tagline = ""
 }
 
-
 \paper {
 	#(set-paper-size "letter")
 	indent = 0
   page-count = #1
 }
-
 
 global = {
  	\key f \major
@@ -23,7 +21,6 @@ global = {
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
 	\partial 8
 }
-
 
 soprano = \relative c'' {
  	\global
@@ -38,7 +35,6 @@ soprano = \relative c'' {
 
 }
 
-
 alto = \relative c' {
 	\global
 	c8 c4 f8 f4 f8 f4 e8 e4 c8 c4 e8 e( f) g g4.( f4)
@@ -46,25 +42,28 @@ alto = \relative c' {
 	a'4. a a8 gis a f4. f f f8 f f c4.
 	d8 d d c4 b8 c4. e e(~ e8 f) d e4.~ e
 	f f f8 f f f4. ees ees c8 d bes bes4.
-	a8 a a c4 f8 f4 c8 c4 c8 c4. c8( ees) d c4.~ c 
+	a8 a a c4 f8 f4 c8 c4 c8 c4. c8( ees) d c4.~ c4
 }
-
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
 	a8 a4 c8 c4 d8 c4 c8 c4 c,8 e( g) bes g4 c8 c4.~ c4
 	a8 a4 c8 a4 f8 f4 f8 f4 bes8 a( g) a c4 bes8 bes4.( a4) s8
+	s2. s2. c4. c c8 b c a4. a8 a a g4 g8 g4. c s4. g4 g8 g4.( bes)
+  a a a8 gis a c4. c c bes8 bes f f4.
+  f8 f f a4 bes8 c4 a8 bes4 a8 a4. a8( c) bes a4.~ a4
 }
-
 
 bass = \relative c {
 	\global
 	\clef "bass"
 	f8 f4 f8 f4 f8 c4 c8 c4 c8 c4 c8 c( d) e f4.~ f4
 	f8 f4 f8 f4 a,8 bes4 bes8 bes4 bes8 c4 c8 c4 c8 f4.~ f4 d8\rest
+	R2. R2. f4. f f8 f f f4. d8 d d g4 g8 c,4. c d4.\rest g4 g8 c,4.~ c
+  f4. f f8 f f f4. f a, bes8 bes bes bes 4.
+  c8 c c c4 c8 c4 c8 c4 c8 f4.~ f~ f~ f4
 }
-
 
 verseOne = \lyricmode {
 	\set stanza = "1."
@@ -74,7 +73,6 @@ verseOne = \lyricmode {
 	Light to the eyes impart.
 }
 
-
 verseTwo = \lyricmode {
 	\set stanza = "2."
 	Un -- spot -- ted is the fear of God,
@@ -82,7 +80,6 @@ verseTwo = \lyricmode {
 	The judg -- ments of the Lord are truth
 	And right -- eous -- ness most pure.
 }
-
 
 verseThree = \lyricmode {
 	\set stanza = "3."
@@ -94,6 +91,10 @@ verseThree = \lyricmode {
 	It is my med -- i -- ta -- tion all the day;
 	O how love I Thy law, O how love I Thy law;
 	It is my med -- i -- ta -- tion all the day.
+}
+
+splitText = \lyricmode {
+	\repeat unfold 72 {\skip 1} (All the day.)
 }
 
 verseFour = \lyricmode {
@@ -133,6 +134,9 @@ verseFive = \lyricmode {
 		}
 		\new Lyrics {
 			\lyricsto "soprano" \verseFive
+		}
+		\new Lyrics {
+			\lyricsto "alto" \splitText
 		}
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
 			\new Voice = "tenor" {\voiceThree \tenor}
