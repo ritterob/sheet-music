@@ -60,6 +60,7 @@ bass = \relative c {
 	\clef "bass"
 	f8 f4 f8 f4 f8 c4 c8 c4 c8 c4 c8 c( d) e f4.~ f4
 	f8 f4 f8 f4 a,8 bes4 bes8 bes4 bes8 c4 c8 c4 c8 f4.~ f4 d8\rest
+  \override MultiMeasureRest.staff-position = #2
 	R2. R2. f4. f f8 f f f4. d8 d d g4 g8 c,4. c d4.\rest g4 g8 c,4.~ c
   f4. f f8 f f f4. f a, bes8 bes bes bes 4.
   c8 c c c4 c8 c4 c8 c4 c8 f4.~ f~ f~ f4
