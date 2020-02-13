@@ -18,7 +18,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key f \minor
  	\time 4/4
 	\aikenHeads
   	\large
@@ -35,23 +35,28 @@ lead = {
 
 soprano = \relative c'' {
  	\global
+	\lead
+	f,4
 }
 
 
 alto = \relative c' {
 	\global
+	c4
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	aes4
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	f,4
 }
 
 
