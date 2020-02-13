@@ -1,9 +1,10 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Jesus, Ever Faithful"
+ 	composer = "R.R."
+ 	poet = "Robert Ritter"
+	copyright= \markup { "Copyright" \char ##x00A9 "1994 by Robert Ritter" }
 	tagline = ""
 }
 
@@ -27,6 +28,11 @@ global = {
 
 soprano = \relative c'' {
  	\global
+	g4 aes bes ees d( c) bes2 g4 aes bes aes8( g) f1
+	g4 aes bes ees d( c) bes g bes aes8( g) f4 f ees1 \bar "||"
+	ees1 \bar "" ees
+	\bar "|."
+
 }
 
 
