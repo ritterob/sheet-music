@@ -48,14 +48,25 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
-	c4. 
+	c4. c e f f e f c c ees4( f8) g4. f f e f2.
+	c4. c e f f e f c c ees4( f8) g4. f f e f2.
+	ees4. ees ees ees c f f g f c f ees c f e2.
+	aes,4. c e f f e f c ees ees ees f f e f2.
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	aes4.
+	\lead
+	aes4. c c aes des c c4( bes8) aes4.
+	ees' bes c c des4( c8) bes4. aes2.
+	aes4. c c aes des c c4( bes8) aes4.
+	ees' bes4( aes8) c4. c des4( c8) bes4. aes2.
+	aes4. aes aes g aes c c c
+	f, aes aes g aes f g2.
+	f4. c' c aes des c c4( bes8) aes4.
+	aes g8( aes bes) aes4( g8) f4. des'4( c8) bes4. aes2.
 }
 
 
