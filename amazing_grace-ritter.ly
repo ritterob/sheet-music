@@ -31,14 +31,15 @@ soprano = \relative c'' {
 	g4 a b a8 b c4 b b( a) g a b a8 g fis4 g a2
 	g4 a b a8 b c4 b b( a) b a8 g fis( g) a4 g4.
 	\bar "||"
-	d8 b'4 a g4. d8 b'4 a g4. d8 b'4 a g4. d8 b'4.( c16 b) a4.
-	d,8 b'4 a g4. d8 b'4 a g4. d8 b'4 a 
-
+	d8 b'4 a g4. d8 b'4 a g4. e8 b'4 a g4. d8 b'4.( c16 b) a4.
+	d,8 b'4 a g4. d8 b'4 a g4. e8 b'4 a g4. g8 fis( g) a4 g1
+	\bar "|."
 }
 
 
 alto = \relative c' {
 	\global
+	d4 fis g g8 g g4 g g( fis) d fis g fis8 e d4 e fis2.
 }
 
 
@@ -59,7 +60,7 @@ verseOne = \lyricmode {
 	Steeped in sin, in my shame un -- clean
 	To Your al -- tar my gift I bring.
 	Then You come and lift up my face,
-	Shine on my with Your grace.
+	Shine on me with Your grace.
 	A -- maz -- ing grace, how sweet the sound
 	When You de -- clare me ho -- ly!
 	My life is yours, for I have found
