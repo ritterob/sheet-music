@@ -36,7 +36,7 @@ lead = {
 soprano = \relative c'' {
  	\global
 	\lead
-	f,4
+	f,4 \tuplet 3/4 {f8( g aes)}
 }
 
 
@@ -62,6 +62,14 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	O the deep, deep love of Je -- sus,
+	vast, un -- meas -- ured, bound -- less, free!
+	Roll -- ing as a might -- y o -- cean
+	in its full -- ness o -- ver me!
+	Un -- der -- neath me, all a -- round me,
+	is the cur -- rent of Thy love
+	Lead -- ing on -- ward, lead -- ing home -- ward,
+	to Thy glo -- rious rest a -- bove!
 }
 
 
