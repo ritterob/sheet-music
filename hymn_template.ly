@@ -22,7 +22,13 @@ global = {
 	\aikenHeads
   	\large
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
+ 	\set Staff.midiMaximumVolume = #1.0
  	%\partial 4
+}
+
+
+lead = {
+	\set Staff.midiMinimumVolume = #3.0
 }
 
 
