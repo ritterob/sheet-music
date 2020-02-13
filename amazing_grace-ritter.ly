@@ -22,12 +22,14 @@ global = {
 	\aikenHeads
   	\large
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
+	\set Staff.midiMaximumVolume = #1.0
+
  	%\partial 4
 }
 
 
 lead = {
-	\set Staff.midiMinimumVolume = #2.6
+	\set Staff.midiMinimumVolume = #3.0
 }
 
 
@@ -54,14 +56,19 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	\lead
-	
+	%\lead
+	b4 d d d8 d e4 d d( c) b d d d8 d d4 cis d2
+	b4 d d d8 d e4 d d( c) b c8 b c4 c b4.
+	b8 d4 c b4. b8 d4 d c4. c8 b4 c b4. b8 d2 d4.
+	d8 d4 c b4. b8 d4 d c4. c8 b4 c b4. b8 c4 c b1
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	\lead
+	
 }
 
 
