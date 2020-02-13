@@ -4,7 +4,7 @@
  	title = "Sing to the Lord"
  	composer = "R.R."
  	poet = "Rob Ritter"
-	copyright = \markup { "Copyright" \char ##x00A9 "1999 by Rob Ritter" }
+	copyright = \markup { "Copyright" \char ##x00A9 "2003 by Rob Ritter" }
 	tagline = ""
 }
 
