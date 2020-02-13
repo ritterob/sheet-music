@@ -4,7 +4,7 @@
  	title = "Jesus, Ever Faithful"
  	composer = "R.R."
  	poet = "Robert Ritter"
-	copyright= \markup { "Copyright" \char ##x00A9 "1994 by Robert Ritter" }
+	copyright = \markup { "Copyright" \char ##x00A9 "1994 by Robert Ritter" }
 	tagline = ""
 }
 
@@ -17,7 +17,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key ees \major
  	\time 4/4
 	\aikenHeads
   	\large
@@ -38,33 +38,42 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
+	ees4 ees ees ees f( d) ees2 ees4 ees ees ees d1
+	ees4 ees ees ees f( d) ees ees ees ees d d ees1
+	c1 bes
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	bes4 aes g bes f( aes) g2 bes4 c bes c bes1
+	bes4 aes g bes f( aes) g bes bes c bes aes g1
+	aes1 g
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	ees4 ees ees ees bes2 ees ees4 ees g, aes bes1
+	ees4 ees ees ees bes2 ees4 ees g, aes bes bes ees1
+	ees1 ees
 }
 
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Je -- sus, e -- ver faith -- ful, true to us for aye,
+	May we prove us worth -- y and ne'er Thy trust be -- tray.
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
-}
-
-
-verseThree = \lyricmode {
-	\set stanza = "3."
+	Be the things Thou giv'st us great or be thay small,
+	Help us, Lord of Hea -- ven, be faith -- ful in them all.
+	A -- men.
 }
 
 
@@ -81,10 +90,6 @@ verseThree = \lyricmode {
 		\new Lyrics {
 			\lyricsto "soprano" \verseTwo
 		}
-		\new Lyrics {
-			\lyricsto "soprano" \verseThree
-		}
-		
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
 			\new Voice = "tenor" {\voiceThree \tenor}
 			\new Voice = "bass" {\voiceFour \bass}
@@ -94,6 +99,6 @@ verseThree = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 100
 	}
 }
