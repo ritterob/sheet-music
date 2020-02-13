@@ -73,7 +73,10 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
-	f,4.
+	f,4. aes c des bes c f f aes g e f bes, c f2.
+	f,4. aes c des bes c f f aes g4( f8) e4. f bes, c f2.
+	aes,4. c ees ees f aes, c c f ees des ees f4( ees8) des4. c2.
+	des4. aes c des bes c f f aes ees aes, des bes c f2.
 }
 
 
@@ -92,6 +95,14 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	O the deep, deep love of Je -- sus,
+	spread His praise from shore to shore!
+	How He lov -- eth, ev -- er lov -- eth,
+	chang -- eth nev -- er, nev -- er more!
+	How He watch -- es o'er His loved ones,
+	died to call them all His own;
+	How for them He in -- ter -- ced -- eth,
+	watch -- eth o'er them from the throne!
 }
 
 
