@@ -1,10 +1,10 @@
 \version "2.18.2"
 
 \header {
- 	title = "Amazing Grace"
- 	composer = "R.R."
- 	poet = "Rob Ritter"
-	copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+ 	title = ""
+ 	composer = ""
+ 	poet = ""
+	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
 }
 
