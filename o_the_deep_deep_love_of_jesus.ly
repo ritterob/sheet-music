@@ -58,7 +58,7 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	\lead
+	%\lead
 	aes4. c c aes des c c4( bes8) aes4.
 	ees' bes c c des4( c8) bes4. aes2.
 	aes4. c c aes des c c4( bes8) aes4.
@@ -108,6 +108,14 @@ verseTwo = \lyricmode {
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	O the deep, deep love of Je -- sus,
+	love of eve -- ry love the best!
+	'Tis an o -- cean full of bless -- ing,
+	'tis a ha -- ven giv -- ing rest!
+	O the deep, deep love of Je -- sus,
+	'tis a heav'n of heav'ns to me;
+	And it lifts me up to glo -- ry,
+	for it lifts me up to Thee!
 }
 
 
