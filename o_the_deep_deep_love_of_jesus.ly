@@ -1,10 +1,11 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+ 	title = "O the Deep, Deep Love of Jesus"
+ 	composer = "Thomas J. Williams"
+ 	poet = "Samuel T. Francis"
+	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = "Public Domain"
 	tagline = ""
 }
 
