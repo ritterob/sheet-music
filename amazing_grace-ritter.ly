@@ -26,6 +26,11 @@ global = {
 }
 
 
+lead = {
+	\set Staff.midiMinimumVolume = #2.6
+}
+
+
 soprano = \relative c'' {
  	\global
 	g4 a b a8 b c4 b b( a) g a b a8 g fis4 g a2
@@ -39,13 +44,18 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
-	d4 fis g g8 g g4 g g( fis) d fis g fis8 e d4 e fis2.
+	d4 fis g g8 g g4 g g( fis) d fis g fis8 e d4 e fis2
+	d4 fis g g8 g g4 g g( fis) g e8 e d4 d d4.
+	d8 g4 fis d4. d8 g4 fis e4. e8 g4 fis d4. d8 g2 fis4.
+	d8 g4 fis d4. d8 g4 fis e4. e8 g4 fis e4. e8 d4 d d1
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	\lead
+	
 }
 
 
