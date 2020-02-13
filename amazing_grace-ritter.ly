@@ -67,11 +67,11 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
-	\lead
+	%\lead
 	g4 d' g, g8 g c4 d d2 g,4 d' g, g8 g a4 a d2
 	g,4 d' g, g8 g c4 d d2 e4 c8 e d4 d g,4.
 	g8 d'4 d g,4. g8 g4 b c4. c8 d4 d g,4. g8 b4( c) d4.
-	d8 d4 d g,4. g8 g4 b c4. c8 d4 d e4. c8 d4 d g1
+	d8 d4 d g,4. g8 g4 b c4. c8 d4 d e4. c8 d4 d <g g,>1
 }
 
 
