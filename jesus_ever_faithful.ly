@@ -4,7 +4,7 @@
  	title = "Jesus, Ever Faithful"
  	composer = "R.R."
  	poet = "Rob Ritter"
-	copyright = \markup { "Copyright" \char ##x00A9 "1994 by Rob Ritter" }
+	copyright = \markup { "Copyright" \char ##x00A9 "1995 by Rob Ritter" }
 	tagline = ""
 }
 
