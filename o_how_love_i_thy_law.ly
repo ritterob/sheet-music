@@ -17,7 +17,7 @@ global = {
  	\key f \major
  	\time 6/8
 	\aikenHeads
-  	\huge
+  	\large
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
 	\partial 8
 }
