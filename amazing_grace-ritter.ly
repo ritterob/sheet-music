@@ -90,6 +90,10 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	Far from God, lost and all a -- lone,
+	I can't cleanse my -- self on my own,
+	I need You, Lord, to make me whole,
+	Bright -- en my sin- stained soul.
 }
 
 
