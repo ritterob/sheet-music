@@ -19,7 +19,7 @@ global = {
  	\key aes \major
  	\time 6/4
 	\aikenHeads
-  \huge
+  \large
   \override Score.BarNumber.break-visibility = ##(#f #f #f)
  	%\partial 4
 }
