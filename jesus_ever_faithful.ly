@@ -3,7 +3,7 @@
 \header {
  	title = "Jesus, Ever Faithful"
  	composer = "R.R."
- 	poet = "Robert Ritter"
+ 	poet = "Rob Ritter"
 	copyright = \markup { "Copyright" \char ##x00A9 "1994 by Rob Ritter" }
 	tagline = ""
 }
