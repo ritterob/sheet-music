@@ -19,7 +19,7 @@
 
 global = {
  	\key f \minor
- 	\time 4/4
+ 	\time 12/8
 	\aikenHeads
   	\large
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
@@ -36,27 +36,30 @@ lead = {
 soprano = \relative c'' {
  	\global
 	\lead
-	f,4 \tuplet 3/4 {f8( g aes)}
+	f,4. f8( g aes) g4. f g g8( aes bes) aes4 ( g8) f4.
+	c'4. bes8( c des) c4( bes8) aes4. bes4( aes8) g4. f2.
+	f4. f8( g aes) g4. f g g8( aes bes) aes4 ( g8) f4.
+	c'4. bes8( c des) c4( bes8) aes4. bes4( aes8) g4. f2.
 }
 
 
 alto = \relative c' {
 	\global
-	c4
+	c4.
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	aes4
+	aes4.
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
-	f,4
+	f,4.
 }
 
 
@@ -109,6 +112,6 @@ verseThree = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4. = 80
 	}
 }
