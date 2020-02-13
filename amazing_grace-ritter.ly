@@ -17,7 +17,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key g \major
  	\time 4/4
 	\aikenHeads
   	\large
@@ -28,6 +28,10 @@ global = {
 
 soprano = \relative c'' {
  	\global
+	g4 a b a8 b c4 b b( a) g a b a8 g fis4 g a2
+	g4 a b a8 b c4 b b( a) b a8 g fis( g) a4 g4.
+	\bar "||"
+
 }
 
 
@@ -50,6 +54,14 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Steeped in sin, in my shame un -- clean
+	To Your al -- tar my gift I bring.
+	Then You come and lift up my face,
+	Shine on my with Your grace.
+	A -- maz -- ing grace, how sweet the sound
+	When You de -- clare me ho -- ly!
+	My life is yours, for I have found
+	The mean -- ing of a -- maz -- ing grace!
 }
 
 
