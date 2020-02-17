@@ -99,7 +99,7 @@ verseTwo = \lyricmode {
 	Sing to the Lord! Raise to Heav -- en your voice!
   Clap your hands and re -- joice For the good He be -- stows!
   Sing to the Lord! Shout with glad -- ness and mirth!
-  Let the ends of the earth ring with Song!
+  Let the ends of the earth ring with song!
 	Al -- le -- lu -- ia! Al -- le -- lu -- ia!
 	O sing we un -- to the Lord!
 	Al -- le -- lu -- ia! Al -- le -- lu -- ia!
