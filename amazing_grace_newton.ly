@@ -34,7 +34,11 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	d,4 g2
+	d,4 g2 b8( g) b2 a4 g2 e4 d2
+	d4 g2 b8( g) b2 a4 d2.~ d2
+	b4 d4.( b8) d( b) g2 d4 e4.( g8) g( e) d2
+	d4 g2 b8( g) b2 a4 g2.~ g2
+	\bar "|."
 }
 
 
