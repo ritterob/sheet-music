@@ -33,12 +33,13 @@ lead = {
 
 
 soprano = \relative c'' {
- 	\global
+ 	%\global
 	e,4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
 	e4 g8. g16 a4 ais8.( ais16) b2( fis4) r4
-	\break
+	%\break
 	e4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
-	e4 g8. g16 fis4 b8. b16 e,2.
+	e4 g8. g16 fis4 b8. b16 e,2. r4
+	g4 b8. a16 g4 e'8.( d16) d4.( c16 b) a2
 }
 
 
@@ -50,13 +51,20 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	g4 g8. g16 g4 a8. g16 fis2 a
+	g4 b8. b16 c4 g8.( e16) fis2( a4) r4
+	g4 g8. g16 g4 a8. g16 fis2 a
+	g4 b8. b16 b4 fis8. a16 g2. r4
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
-	e4
+	e4 e8. e16 e4 e8. e16 b2 b
+	e4 e8. e16 c4 c8.( c16) b2. r4
+	e4 e8. e16 e4 e8. e16 b2 b
+	e4 e8. e16 b4 b8. b16 e2. r4
 }
 
 
@@ -66,7 +74,7 @@ verseOne = \lyricmode {
 	thou who art wea -- ry_of sin;
 	Go to the clear flow -- ing foun -- tain
 	where you may wash and be clean.
-	Haste, then, th’A -- ven -- ger is near thee;
+	Haste, then, th’A -- ven -- ger_is near __ thee;
 	call, and the Sav -- ior will hear thee;
 	He on His bos -- om will bear thee;
 	O thou who art wea -- ry of sin,
