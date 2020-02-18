@@ -28,7 +28,7 @@ global = {
 
 soprano = \relative c'' {
  	\global
-	g4 aes bes ees d( c) bes2 g4 aes bes aes8( g) f1
+	g4 aes bes ees d( c) bes2 g4 aes bes aes8( g) f1 \break
 	g4 aes bes ees d( c) bes g bes aes8( g) f4 f ees1 \bar "||"
 	ees1 \bar "" ees
 	\bar "|."
