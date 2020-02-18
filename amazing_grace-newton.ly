@@ -86,7 +86,7 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
-	'Twas grace that taught my heart to fear,
+	’Twas grace that taught my heart to fear,
 	And grace my fears re -- lieved; __
 	How pre -- cious did that grace ap -- pear
 	The hour I first be -- lieved!
@@ -97,7 +97,7 @@ verseThree = \lyricmode {
 	\set stanza = "3."
 	Thru man -- y dan -- gers, toils and snares
 	I have al -- read -- y come; __
-	'Tis grace hath brought me safe thus far,
+	’Tis grace hath brought me safe thus far,
 	And grace will lead me home.
 }
 
@@ -131,9 +131,9 @@ verseSix = \lyricmode {
 
 verseSeven = \lyricmode {
 	\set stanza = "7."
-	When we've been there ten thou -- sand years,
+	When we’ve been there ten thou -- sand years,
 	Bright shin -- ing as the sun, __
-	We've no less days to sing God's praise
+	We’ve no less days to sing God's praise
 	Than when we'd first be -- gun.
 }
 
