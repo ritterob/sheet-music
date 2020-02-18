@@ -25,6 +25,7 @@ global = {
 soprano = \relative c'' {
  	\global
 	c,8 c( f) a a4 bes8 a4 g8 g4 c,8 c( e) g bes4 bes8 bes4.( a4)
+	\bar "|" \break
 	c,8 c( f) a c4 c8 c4 bes8 a4 g8 f( e) f a4 g8 g4.( f4) b8\rest
 	\bar "||"
 	c4. c c8 b c a4. a a a8 gis a f4.
