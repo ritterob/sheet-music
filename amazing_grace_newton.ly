@@ -1,10 +1,10 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+ 	title = "Amazing Grace"
+ 	composer = "Traditional"
+ 	poet = "John Newton"
+	copyright= \markup { "Public Domain" }
 	tagline = ""
 }
 
@@ -17,13 +17,13 @@
 
 
 global = {
- 	\key c \major
- 	\time 4/4
+ 	\key g \major
+ 	\time 3/4
 	\aikenHeads
   	\large
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 4
 }
 
 
@@ -34,23 +34,27 @@ lead = {
 
 soprano = \relative c'' {
  	\global
+	d,4 g2
 }
 
 
 alto = \relative c' {
 	\global
+	b4 b2
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	g4 d2
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	g4 g2
 }
 
 
