@@ -48,30 +48,30 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
-	b4 b2 d4 d2 c4 b2 c4 b2
-	b4 b2 d4 d2 g4 fis2.~ fis2
-	fis4 g2 g8( d) d2 d4 c4.( d8) c4 b2
-	d4 b2 d4 g2 fis4 d2.~ d2
+	c8( des) c2 ees8( c) ees2 des4 c2 des4 c2
+	c8( des) c2 ees8( c) ees2 aes4 g2.~ g2
+	g4 aes2 aes8( ees) ees2 des8( c) f2 des4 c2
+	c8( des) c2 ees8( aes) g2 g4 ees2.~ ees2
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	g4 d2 g4 g2 fis4 g2 g4 g2
-	g4 d2 g4 g2 g4 a2.~ a2
-	d4 b4.( g8) b( g) g2 g4 g2 e8( g8) g2
-	g4 g2 g8( b) d2 c4 b2.~ b2
+	aes4 ees2 aes4 aes2 g4 aes2 aes4 aes2
+	aes4 ees2 aes4 aes2 aes4 bes2.~ bes2
+	ees4 c2 c8( aes) c2 aes4 aes2 aes 4 aes2
+	aes4 aes2 aes8( c) ees2 des4 c2.~ c2
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
-	g4 g2 g8( b) d2 d4 e2 c4 g2
-	g4 g2 g8( b) g'2 e4 d2.~ d2
-	d4 g2 g4 b,2 b4 c4.( b8) c4 g2
-	b4 e2 e4 d2 d4 <g g,>2.~ <g g,>2
+	aes4 aes2 aes4 aes2 ees'4 f2 des4 aes2
+	aes4 aes2 aes4 aes'2 f4 ees2.~ ees2
+	ees4 aes2 aes4 aes2 aes4 des,2 des4 aes2
+	aes'4 f2 ees4 ees2 ees4 aes,2.~ aes2
 }
 
 
