@@ -4,6 +4,7 @@
  	title = "O How Love I Thy Law"
  	composer = "James McGranahan"
  	poet = "Psalm 19:7–3"
+	copyright= \markup { "Public Domain" }
 	tagline = ""
 }
 
@@ -17,8 +18,8 @@ global = {
  	\key f \major
  	\time 6/8
 	\aikenHeads
-  	\large
-  	\override Score.BarNumber.break-visibility = ##(#f #f #f)
+  \large
+  \override Score.BarNumber.break-visibility = ##(#f #f #f)
 	\partial 8
 }
 
