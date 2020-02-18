@@ -60,6 +60,8 @@ bass = \relative c {
 	\clef "bass"
 	g4 g2 g8( b) d2 d4 e2 c4 g2
 	g4 g2 g8( b) d2 c4 b2.~ b2
+	g4 g'2 g4 b,2 b4 c4.( b8) c4 g2
+	b4 e2 d4 d2 d4 g2.~ g2
 }
 
 
