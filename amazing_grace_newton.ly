@@ -64,6 +64,10 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	A -- maz -- ing grace! how sweet the sound,
+	That saved a wretch like me!
+	I once was lost, but now am found,
+	Was blind, but now I see.
 }
 
 
