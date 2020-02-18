@@ -34,6 +34,11 @@ lead = {
 
 soprano = \relative c'' {
  	\global
+	e,4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
+	e4 g8. g16 a4 ais8.( ais16) b2( fis4) r4
+	\break
+	e4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
+	e4 g8. g16 fis4 b8. b16 e,2.
 }
 
 
@@ -51,13 +56,14 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
+	e4
 }
 
 
 verseOne = \lyricmode {
 	\set stanza = "1."
 	Flee as a bird to your moun -- tain,
-	thou who art weary of sin;
+	thou who art wea -- ry_of sin;
 	Go to the clear flow -- ing foun -- tain
 	where you may wash and be clean.
 	Haste, then, th’A -- ven -- ger is near thee;
@@ -126,6 +132,9 @@ verseFour = \lyricmode {
 		\new Lyrics {
 			\lyricsto "soprano" \verseThree
 		}
+		\new Lyrics {
+			\lyricsto "soprano" \verseFour
+		}
 		
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
 			\new Voice = "tenor" {\voiceThree \tenor}
@@ -136,6 +145,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 60
 	}
 }
