@@ -103,6 +103,11 @@ verseOne = \lyricmode {
 }
 
 
+splitText = \lyricmode {
+	\repeat unfold 41 {\skip 1} (who pray;)
+}
+
+
 verseTwo = \lyricmode {
 	\set stanza = "2."
 }
@@ -129,7 +134,7 @@ verseFour = \lyricmode {
 			\lyricsto "soprano" \verseOne
 		}
 		\new Lyrics {
-			\lyricsto "soprano" \verseTwo
+			\lyricsto "alto" \splitText
 		}
 		\new Lyrics {
 			\lyricsto "soprano" \verseThree
