@@ -20,7 +20,7 @@ global = {
  	\key g \major
  	\time 4/4
 	\aikenHeads
-  	\large
+  	\huge
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
 	\set Staff.midiMaximumVolume = #1.0
 
