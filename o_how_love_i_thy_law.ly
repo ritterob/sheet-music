@@ -72,7 +72,7 @@ verseOne = \lyricmode {
 	\set stanza = "1."
 	The stat -- utes of the Lord are right,
 	And do re -- joice the heart;
-	The Lord's com -- mand is pure, and doth
+	The Lord’s com -- mand is pure, and doth
 	Light to the eyes im -- part.
 }
 
