@@ -11,15 +11,15 @@
 \paper {
 	#(set-paper-size "letter")
 	indent = 0
-  page-count = #1
+	%page-count = #1
 }
 
 global = {
  	\key f \major
  	\time 6/8
 	\aikenHeads
-  \large
-  \override Score.BarNumber.break-visibility = ##(#f #f #f)
+	\large
+	\override Score.BarNumber.break-visibility = ##(#f #f #f)
 	\partial 8
 }
 
@@ -53,8 +53,8 @@ tenor = \relative c' {
 	a8 a4 c8 c4 d8 c4 c8 c4 c,8 e( g) bes g4 c8 c4.~ c4
 	a8 a4 c8 a4 f8 f4 f8 f4 bes8 a( g) a c4 bes8 bes4.( a4) s8
 	s2. s2. c4. c c8 b c a4. a8 a a g4 g8 g4. c s4. g4 g8 g4.( bes)
-  a a a8 gis a c4. c c bes8 bes f f4.
-  f8 f f a4 bes8 c4 a8 bes4 a8 a4. a8( c) bes a4.~ a4
+	a a a8 gis a c4. c c bes8 bes f f4.
+	f8 f f a4 bes8 c4 a8 bes4 a8 a4. a8( c) bes a4.~ a4
 }
 
 bass = \relative c {
@@ -62,10 +62,10 @@ bass = \relative c {
 	\clef "bass"
 	f8 f4 f8 f4 f8 c4 c8 c4 c8 c4 c8 c( d) e f4.~ f4
 	f8 f4 f8 f4 a,8 bes4 bes8 bes4 bes8 c4 c8 c4 c8 f4.~ f4 d8\rest
-  \override MultiMeasureRest.staff-position = #2
+	\override MultiMeasureRest.staff-position = #2
 	R2. R2. f4. f f8 f f f4. d8 d d g4 g8 c,4. c d4.\rest g4 g8 c,4.~ c
-  f4. f f8 f f f4. f a, bes8 bes bes bes 4.
-  c8 c c c4 c8 c4 c8 c4 c8 f4.~ f~ f~ f4
+	f4. f f8 f f f4. f a, bes8 bes bes bes 4.
+	c8 c c c4 c8 c4 c8 c4 c8 f4.~ f~ f~ f4
 }
 
 verseOne = \lyricmode {
