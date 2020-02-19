@@ -5,7 +5,7 @@
  	composer = "George A. Minor"
  	poet = "Knowles Shaw"
 	%meter = ""
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = "Public Domain"
 	tagline = ""
 }
 
@@ -68,6 +68,10 @@ bass = \relative c {
 	\clef "bass"
 	c8 c c8. c16 c4 c c8 c c8. c16 f4 f
 	c8 c c8. c16 c4 c g8 g g g g2
+	c8 c c8. c16 c4 c c8 c c8. c16 f4 f
+	c8 c c c c4 e g8 g g8. g16 c,2
+	c8 c c8. c16 c2 f8 f f8. f16 c2
+	c8 c c c c4 c c8 c' b8. a16 g2
 }
 
 
