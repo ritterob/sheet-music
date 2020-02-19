@@ -54,6 +54,14 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
+	e8 e e8. f16 e4 c e8 e e8. e16 f4 f
+	e8 e e8. f16 e4 c c8 c b ais b2
+	c8 e e8. f16 e4 c e8 e e8. e16 f4 f
+	e8 e e f g4 g f8 e g8. f16 e2
+	c8 e e8. f16 e2 f8 a a8. f16 e2
+	e8 e e f g4 e g8 g g8. fis16 g2
+	c,8 e e8. f16 e2 f8 a a8. f16 e2
+	e8 e e f g4 g f8 e g8. f16 e2
 }
 
 
@@ -151,6 +159,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 76
 	}
 }
