@@ -74,6 +74,11 @@ verseThree = \lyricmode {
 }
 
 
+verseFour = \lyricmode {
+	\set stanza = "4."
+}
+
+
 \score{
 	\new ChoirStaff <<
 		\new Staff \with {midiInstrument = #"acoustic grand"} <<
@@ -89,6 +94,9 @@ verseThree = \lyricmode {
 		}
 		\new Lyrics {
 			\lyricsto "soprano" \verseThree
+		}
+		\new Lyrics {
+			\lyricsto "soprano" \verseFour
 		}
 		
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
