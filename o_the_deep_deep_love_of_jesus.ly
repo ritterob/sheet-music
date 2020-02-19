@@ -4,7 +4,6 @@
  	title = "O the Deep, Deep Love of Jesus"
  	composer = "Thomas J. Williams"
  	poet = "Samuel T. Francis"
-	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	copyright = "Public Domain"
 	tagline = ""
 }
@@ -21,7 +20,7 @@ global = {
  	\key aes \major
  	\time 12/8
 	\aikenHeads
-	\large
+	\huge
 	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
  	%\partial 4
@@ -59,7 +58,6 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	%\lead
 	aes4. c c aes des c c4( bes8) aes4.
 	ees' bes c c des4( c8) bes4. aes2.
 	aes4. c c aes des c c4( bes8) aes4.
@@ -146,6 +144,6 @@ verseThree = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4. = 80
+		\tempo 4. = 66
 	}
 }
