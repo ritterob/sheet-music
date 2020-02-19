@@ -144,6 +144,6 @@ verseThree = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4. = 66
+		\tempo 4. = 60
 	}
 }
