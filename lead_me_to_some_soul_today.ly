@@ -41,7 +41,7 @@ lead = {
 }
 
 
-soprano = \transpose f f {
+soprano = \transpose f g {
 	\relative c'' {
  		\global
 		f,4 a a4. g8 f4 bes bes4. d,8
@@ -57,7 +57,7 @@ soprano = \transpose f f {
 }
 
 
-alto = \transpose f f {
+alto = \transpose f g {
 	\relative c' {
 		\global
 		c4 f f4. ees8 d4 d d4. bes8
@@ -72,25 +72,34 @@ alto = \transpose f f {
 }
 
 
-tenor = \transpose f f {
+tenor = \transpose f g {
 	\relative c' {
 		\global
 		\clef "bass"
 		a4 c c4. a8 bes4 f f4. f8
 		f4 a c a c c c( bes)
 		a c c4. a8 bes4 f f4. f8
-		f4 f e4. e8 f2. r4
+		f4 f e4. e8 f2. s4
 		bes4 bes bes4. f8 f4 f a4. c8
-		b4 b b4. b8 c4 b bes r4
-		
+		b4 b b4. b8 c4 b bes s4
+		a4 c c4. a8 bes4 f f4. f8
+		f( a) c4 bes4. c8 a2. s4
 	}
 }
 
 
-bass = \transpose f f {
+bass = \transpose f g {
 	\relative c {
 		\global
 		\clef "bass"
+		f4 f f4. f8 bes,4 bes bes4. d8
+		f4 f f f c c c2
+		f4 f f4. f8 bes,4 bes bes4. b8
+		c4 c c4. c8 f2. d4\rest
+		bes4 bes bes4. bes8 f'4 f f4. a8
+		g4 g g4. g8 c,4 d e d\rest
+		f4 f f4. f8 bes,4 bes bes4. bes8
+		c4 c c4. c8 <f f,>2. d4\rest
 	}
 }
 
@@ -159,6 +168,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 76
 	}
 }
