@@ -4,7 +4,7 @@
  	title = "Amazing Grace"
  	composer = "Traditional"
  	poet = "John Newton"
-	copyright= \markup { "Public Domain" }
+	copyright = "Public Domain" 
 	tagline = ""
 }
 
