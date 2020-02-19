@@ -12,12 +12,12 @@
 \paper {
 	#(set-paper-size "letter")
 	indent = 0
-  	page-count = #1
+  	%page-count = #1
 }
 
 
 global = {
- 	\key e \minor
+ 	\key g \major
  	\time 4/4
 	\aikenHeads
   	\large
@@ -44,6 +44,11 @@ soprano = \relative c'' {
 	e4 g8. g16 fis4 b8. b16 e,2. r4
 	g4 b8. a16 g4 e'8.( d16) d4.( c16 b) a2
 	b4 a8. b16 d8(c) b a g2 fis4 r4
+	e4 b'8. b16 b4 c8. b16 b4.( a16 g) fis4.
+	fis8 e4 g8. g16 fis4 b8. b16 e,2
+	c'2 b4 g8 e b4 g'8. fis16 e2. r4
+	\bar "|."
+
 }
 
 
@@ -53,6 +58,11 @@ alto = \relative c' {
 	e4 e8. e16 e4 e8.( e16) dis2. r4
 	e4 e8. e16 e4 e8. e16 dis2 dis
 	e4 e8. e16 dis4 dis8. dis16 e2. r4
+	d4 d8. d16 g4 g8.( g16) fis2 fis
+	g4 g8. g16 a4 e8 e e2 dis4 r4
+	e4 e8. e16 e4 e8. e16 dis2 dis4.
+	dis8 e4 e8. e16 dis4 dis8. dis16 e2
+	e e4 e8 b b4 dis8. dis16 e2. r4
 }
 
 
@@ -63,6 +73,11 @@ tenor = \relative c' {
 	g4 b8. b16 c4 g8.( e16) fis2( a4) r4
 	g4 g8. g16 g4 a8. g16 fis2 a
 	g4 b8. b16 b4 fis8. a16 g2. r4
+	b4 d8. c16 b4 b8.( b16) a2 d2
+	d4 c8. d16 e4 d8 c b2 a4 r4
+	g4 g8. g16 g4 a8. g16 fis2 a4.
+	a8 g4 b8. b16 b4 fis8. a16 g2
+	a2 g4 b8 g fis4 a8. a16 g2. r4
 }
 
 
@@ -73,6 +88,11 @@ bass = \relative c {
 	e4 e8. e16 c4 c8.( c16) b2. r4
 	e4 e8. e16 e4 e8. e16 b2 b
 	e4 e8. e16 b4 b8. b16 e2. r4
+	g4 g8. g16 g4 g8.( g16) d2 d2
+	g4 g8. g16 c,4 a8 a b2 b4 r4
+	e4 e8. e16 e4 e8. e16 b2 b4.
+	b8 e4 e8. e16 b4 b8. b16 e2
+	a,2 b4 b8 b dis4 b8. b16 e2. r4
 }
 
 
@@ -92,13 +112,13 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
-	He is the bountiful Giver,
-	now unto Him draw near;
+	He is the boun -- ti -- ful Giv -- er,
+	now un -- to Him draw near;
 	Peace then shall flow like a ri -- ver,
 	thou shalt be saved from thy fear.
 	Hark! ’tis the Sav -- ior call -- ing!
 	Haste! for the twi -- light is fall -- ing!
-	Flee, for the night is appalling!
+	Flee, for the night is ap -- pall -- ing!
 	And thou shalt be saved from thy fear.
 	And thou shalt be saved from thy fear.
 }
@@ -121,14 +141,14 @@ verseThree = \lyricmode {
 verseFour = \lyricmode {
 	\set stanza = "4."
 	Come, then, to Je -- sus, Thy Sav -- ior,
-	He will redeem thee from sin;
+	He will re -- deem thee_from sin;
 	Blest with a sense of His fa -- vor,
-	make thee all-glorious with -- in!
-	Call, for the Sav -- ior is near thee,
-	wait -- ing in mercy to hear thee,
-	He by His presence will cheer thee,
+	make thee all- glo -- rious with -- in!
+	Call, for the Sav -- ior is_near thee,
+	wait -- ing in mer -- cy to hear thee,
+	He by His pres -- ence will cheer thee,
 	O thou who art wea -- ry of sin.
-	O thou who art wea -- ry of sin
+	O thou who art wea -- ry of sin.
 }
 
 
