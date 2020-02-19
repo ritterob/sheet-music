@@ -44,9 +44,9 @@ soprano = \relative c'' {
 	e4 g8. g16 fis4 b8. b16 e,2. b4\rest
 	g4 b8. a16 g4 e'8.( d16) d4.( c16 b) a2
 	b4 a8. b16 d8(c) b a g2 fis4 b4\rest
-	e4 b'8. b16 b4 c8. b16 b4.( a16 g) fis4.
+	e,4 b'8. b16 b4 c8. b16 b4.( a16 g) fis4.
 	fis8 e4 g8. g16 fis4 b8. b16 e,2
-	c'2 b4 g8 e b4 g'8. fis16 e2. r4
+	c'2 b4 g8 e b4 g'8. fis16 e2. b4\rest
 	\bar "|."
 
 }
@@ -62,7 +62,7 @@ alto = \relative c' {
 	g4 g8. g16 a4 e8 e e2 dis4 s4
 	e4 e8. e16 e4 e8. e16 dis2 dis4.
 	dis8 e4 e8. e16 dis4 dis8. dis16 e2
-	e e4 e8 b b4 dis8. dis16 e2. r4
+	e e4 e8 b b4 dis8. dis16 e2. s4
 }
 
 
@@ -77,7 +77,7 @@ tenor = \relative c' {
 	d4 c8. d16 e4 d8 c b2 a4 s4
 	g4 g8. g16 g4 a8. g16 fis2 a4.
 	a8 g4 b8. b16 b4 fis8. a16 g2
-	a2 g4 b8 g fis4 a8. a16 g2. r4
+	a2 g4 b8 g fis4 a8. a16 g2. s4
 }
 
 
@@ -92,7 +92,7 @@ bass = \relative c {
 	g4 g8. g16 c,4 a8 a b2 b4 d4\rest
 	e4 e8. e16 e4 e8. e16 b2 b4.
 	b8 e4 e8. e16 b4 b8. b16 e2
-	a,2 b4 b8 b dis4 b8. b16 e2. r4
+	a,2 b4 b8 b dis4 b8. b16 e2. d4\rest
 }
 
 
