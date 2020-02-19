@@ -23,6 +23,9 @@ global = {
  	\time 3/4
 	\aikenHeads
   	\huge
+	\set Timing.beamExceptions = #'()
+	\set Timing.baseMoment = #(ly:make-moment 1/4)
+	\set Timing.beatStructure = #'(1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
  	%\partial 4
@@ -46,18 +49,30 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
+	bes4 bes bes aes bes c bes c d ees2.
+	d4 d ees f ees ees ees ees ees f2.
+	aes4 ees ees ees( ees) f ees c bes aes2( bes4)
+	bes ees f ees ees d c c aes bes2.
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	g4 g ees ees d ees ees g bes bes2.
+	bes4 bes a bes bes bes aes bes c d2.
+	ees4 c8( bes) aes4 aes( g) bes g g f ees2( f4)
+	g bes bes g bes bes aes aes f g2.
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	ees4 ees g, aes bes aes g c bes ees2.
+	bes4  bes c d ees g aes g c, bes2.
+	aes4 aes c ees( ees) d c c g aes( c d)
+	ees ees d c bes g aes aes f <ees ees'>2.
 }
 
 
@@ -72,11 +87,30 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	Be Thou my wis -- dom, and Thou my true word;
+	I ev -- er with Thee and Thou with me, Lord;
+	Thou my great Fa -- ther, I Thy true son;
+	Thou in me dwell -- ing, and I with Thee, one.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	Be Thou my bat -- tle shield, sword for my fight;
+	Be Thou my dig -- ni -- ty, Thou my de -- light,
+	Thou my soul’s shel -- ter, Thou my high tow’r;
+	Raise Thou me heav’n -- ward, O Pow’r of my pow’r.
+}
+
+
+verseFour = \lyricmode {
+	\set stanza = "4."
+	
+}
+
+
+verseFive = \lyricmode {
+	\set stanza = "5."
 }
 
 
@@ -95,6 +129,12 @@ verseThree = \lyricmode {
 		}
 		\new Lyrics {
 			\lyricsto "soprano" \verseThree
+		}
+		\new Lyrics {
+			\lyricsto "soprano" \verseFour
+		}
+		\new Lyrics {
+			\lyricsto "soprano" \verseFive
 		}
 		
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
