@@ -11,6 +11,7 @@
 
 \paper {
 	#(set-paper-size "letter")
+	print-page-number = "false"
 	indent = 0
   	%page-count = #1
 }
