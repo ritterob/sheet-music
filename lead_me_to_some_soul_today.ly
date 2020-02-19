@@ -44,7 +44,15 @@ lead = {
 soprano = \transpose f f {
 	\relative c'' {
  		\global
-		f,4 a a4. g8 f4 bes bes4.
+		f,4 a a4. g8 f4 bes bes4. d,8
+		c4 f a c g a g2
+		f4 a a4. g8 f4 bes bes4. d,8
+		c4 a' g4. a8 f2. b4\rest
+		f4 f g8( f4) g8 a4 a f4. f8
+		g4 g a8( g4) a8 g2. b4\rest
+		f4 a a4. g8 f4 bes bes4. d,8
+		c4 a' g4. a8 f2. b4\rest
+		\bar "|."
 	}
 }
 
@@ -52,6 +60,14 @@ soprano = \transpose f f {
 alto = \transpose f f {
 	\relative c' {
 		\global
+		c4 f f4. ees8 d4 d d4. bes8
+		a4 c f f e f e2
+		c4 f f4. ees8 d4 d d4. gis,8
+		a4 c bes4. c8 a2. s4
+		d4 d d4. des8 c4 c c4. c8
+		d4 d d4. d8 e4 d c s
+		c4 f f4. ees8 d4 d d4. bes8
+		a( c) f4 e4. e8 c2. s4
 	}
 }
 
