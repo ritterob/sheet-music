@@ -1,11 +1,15 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Lead Me To Some Soul Today"
+ 	composer = "Will H. Houghton"
+ 	poet = "Wendell P. Loveless"
 	%meter = ""
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = \markup {
+		"Copyright" \char ##x00A9 "1964 by Hope Publising Co."
+		\teeny
+		"(Need to get permission.)"
+	}
 	tagline = ""
 }
 
@@ -19,7 +23,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key f \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -37,25 +41,33 @@ lead = {
 }
 
 
-soprano = \relative c'' {
- 	\global c
+soprano = \transpose f f {
+	\relative c'' {
+ 		\global c
+	}
 }
 
 
-alto = \relative c' {
-	\global
+alto = \transpose f f {
+	\relative c' {
+		\global
+	}
 }
 
 
-tenor = \relative c' {
-	\global
-	\clef "bass"
+tenor = \transpose f f {
+	\relative c' {
+		\global
+		\clef "bass"
+	}
 }
 
 
-bass = \relative c {
-	\global
-	\clef "bass"
+bass = \transpose f f {
+	\relative c {
+		\global
+		\clef "bass"
+	}
 }
 
 
@@ -63,7 +75,14 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
-	\set stanza = "1."
+	Lead me to some soul today,
+	O teach me, Lord, just what to say;
+	Friends of mine are lost in sin,
+	And cannot find their way.
+	Few there are who seem to care,
+	And few there are who pray;
+	Melt my heart and fill my life,
+	Give me one soul today.
 }
 
 
