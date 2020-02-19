@@ -3,8 +3,9 @@
 \header {
  	title = "Be Thou My Vision"
  	composer = "Traditional Irish Melody"
- 	poet = "Ancient Irish Poem\nTr. Mary E. Byrne"
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+ 	poet = "Ancient Irish Poem, Tr. Mary E. Byrne"
+	meter = "Verse 3 by Eleanor H. Hull"
+	copyright= "Public Domain"
 	tagline = ""
 }
 
@@ -18,10 +19,10 @@
 
 
 global = {
- 	\key c \major
- 	\time 4/4
+ 	\key ees \major
+ 	\time 3/4
 	\aikenHeads
-  	\large
+  	\huge
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
  	%\partial 4
@@ -35,6 +36,11 @@ lead = {
 
 soprano = \relative c'' {
  	\global
+	ees,4 ees f8( ees) c4 bes c ees ees f g2.
+	f4 f f f g bes c bes g bes2.
+	c4 c8( d) ees( d) c4( bes) g bes ees, d c2( bes4)
+	ees g bes c8( bes) g4 ees8( g) f4 ees ees ees2.
+	\bar "|."
 }
 
 
@@ -57,6 +63,10 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Be Thou my vi -- sion, O Lord of my heart;
+	Naught be all else to me, save that Thou art—
+	Thou my best thought by day or by night,
+	Wak -- ing or sleep -- ing, Thy pre -- sence my light.
 }
 
 
