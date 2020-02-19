@@ -21,8 +21,8 @@ global = {
  	\key f \minor
  	\time 12/8
 	\aikenHeads
-  \large
-  \override Score.BarNumber.break-visibility = ##(#f #f #f)
+	\large
+	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
  	%\partial 4
 }
