@@ -72,6 +72,8 @@ bass = \relative c {
 	c8 c c c c4 e g8 g g8. g16 c,2
 	c8 c c8. c16 c2 f8 f f8. f16 c2
 	c8 c c c c4 c c8 c' b8. a16 g2
+	c,8 c c8. c16 c2 f8 f f8. f16 c2
+	c8 c c c c4 e g8 g g8. g16 c,2
 }
 
 
