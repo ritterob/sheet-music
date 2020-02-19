@@ -18,7 +18,7 @@
 
 
 global = {
- 	\key f \minor
+ 	\key aes \major
  	\time 12/8
 	\aikenHeads
 	\large
