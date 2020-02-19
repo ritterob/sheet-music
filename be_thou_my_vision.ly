@@ -1,9 +1,9 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Be Thou My Vision"
+ 	composer = "Traditional Irish Melody"
+ 	poet = "Ancient Irish Poem\nTr. Mary E. Byrne"
 	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
 }
