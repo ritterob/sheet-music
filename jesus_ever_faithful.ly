@@ -65,13 +65,13 @@ bass = \relative c {
 verseOne = \lyricmode {
 	\set stanza = "1."
 	Je -- sus, e -- ver faith -- ful, true to us for aye,
-	May we prove us worth -- y and ne'er Thy trust be -- tray.
+	May we prove us worth -- y and ne’er Thy trust be -- tray.
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
-	Be the things Thou giv'st us great or be thay small,
+	Be the things Thou giv’st us great or be thay small,
 	Help us, Lord of Hea -- ven, be faith -- ful in them all.
 	A -- men.
 }
