@@ -59,6 +59,9 @@ bass = \relative c {
 }
 
 
+% Some useful characters: — “ ” ‘ ’
+
+
 verseOne = \lyricmode {
 	\set stanza = "1."
 }
