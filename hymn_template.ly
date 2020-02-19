@@ -21,7 +21,10 @@ global = {
  	\key c \major
  	\time 4/4
 	\aikenHeads
-  	\large
+  	\huge
+	\set Timing.beamExceptions = #'()
+	\set Timing.baseMoment = #(ly:make-moment 1/4)
+	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
  	%\partial 4
