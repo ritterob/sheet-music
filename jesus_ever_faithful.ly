@@ -20,7 +20,7 @@ global = {
  	\key ees \major
  	\time 4/4
 	\aikenHeads
-  	\large
+  	\huge
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	%\partial 4
 }
@@ -58,7 +58,7 @@ bass = \relative c {
 	\clef "bass"
 	ees4 ees ees ees bes2 ees ees4 ees g, aes bes1
 	ees4 ees ees ees bes2 ees4 ees g, aes bes bes ees1
-	ees1 ees
+	<ees ees,>1 <ees ees,>
 }
 
 
