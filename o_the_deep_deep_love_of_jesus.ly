@@ -13,7 +13,7 @@
 \paper {
 	#(set-paper-size "letter")
 	indent = 0
-  	page-count = #1
+  	%page-count = #1
 }
 
 
@@ -43,6 +43,7 @@ soprano = \relative c'' {
 	f f8( g aes) bes4. bes aes bes8( aes bes) c2.
 	f,4. f8( g aes) g4. f g g8( aes bes) aes4 ( g8) f4.
 	c'4. bes8( c des) c4( bes8) aes4. bes4( aes8) g4. f2.
+	\bar "|."
 }
 
 
