@@ -37,42 +37,50 @@ lead = {
 }
 
 
-soprano = \relative c'' {
+soprano = \transpose ees e {
+	\relative c'' {
  	\global
-	ees,4 ees f8( ees) c4 bes c ees ees f g2.
-	f4 f f f g bes c bes g bes2.
-	c4 c8( d) ees( d) c4( bes) g bes ees, d c2( bes4)
-	ees g bes c8( bes) g4 ees8( g) f4 ees ees ees2.
+		ees,4 ees f8( ees) c4 bes c ees ees f g2.
+		f4 f f f g bes c bes g bes2.
+		c4 c8( d) ees( d) c4( bes) g bes ees, d c2( bes4)
+		ees g bes c8( bes) g4 ees8( g) f4 ees ees ees2.
 	\bar "|."
+	}
 }
 
 
-alto = \relative c' {
-	\global
-	bes4 bes bes aes bes c bes c d ees2.
-	d4 d ees f ees ees ees ees ees f2.
-	aes4 ees ees ees( ees) f ees c bes aes2( bes4)
-	bes ees f ees ees d c c aes bes2.
+alto = \transpose ees e {
+	\relative c' {
+		\global
+		bes4 bes bes aes bes c bes c d ees2.
+		d4 d ees f ees ees ees ees ees f2.
+		aes4 ees ees ees( ees) f ees c bes aes2( bes4)
+		bes ees f ees ees d c c aes bes2.
+	}
 }
 
 
-tenor = \relative c' {
-	\global
-	\clef "bass"
-	g4 g ees ees d ees ees g bes bes2.
-	bes4 bes a bes bes bes aes bes c d2.
-	ees4 c8( bes) aes4 aes( g) bes g g f ees2( f4)
-	g bes bes g bes bes aes aes f g2.
+tenor = \transpose ees e {
+	\relative c' {
+		\global
+		\clef "bass"
+		g4 g ees ees d ees ees g bes bes2.
+		bes4 bes a bes bes bes aes bes c d2.
+		ees4 c8( bes) aes4 aes( g) bes g g f ees2( f4)
+		g bes bes g bes bes aes aes f g2.
+	}
 }
 
 
-bass = \relative c {
-	\global
-	\clef "bass"
-	ees4 ees g, aes bes aes g c bes ees2.
-	bes4  bes c d ees g aes g c, bes2.
-	aes4 aes c ees( ees) d c c g aes( c d)
-	ees ees d c bes g aes aes f <ees ees'>2.
+bass = \transpose ees e {
+	\relative c {
+		\global
+		\clef "bass"
+		ees4 ees g, aes bes aes g c bes ees2.
+		bes4  bes c d ees g aes g c, bes2.
+		aes4 aes c ees( ees) d c c g aes( c d)
+		ees ees d c bes g aes aes f <ees ees'>2.
+	}
 }
 
 
