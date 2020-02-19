@@ -105,12 +105,19 @@ verseThree = \lyricmode {
 
 verseFour = \lyricmode {
 	\set stanza = "4."
-	
+	Rich -- es I heed not, nor man’s emp -- ty praise,
+	Thou mine in -- her -- i -- tance, now and al -- ways;
+	Thou and Thou on -- ly, first in my heart,
+	High King of heav -- en, my trea -- sure Thou art.
 }
 
 
 verseFive = \lyricmode {
 	\set stanza = "5."
+	High King of heav -- en, my vic -- to -- ry won,
+	My I reach heav -- en’s joys, O bright heav’n’s Sun!
+	Heart of my own_heart, what -- ev -- er be -- fall,
+	Still be my vi -- sion, O Rul -- er of all.
 }
 
 
