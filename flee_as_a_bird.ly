@@ -33,7 +33,7 @@ lead = {
 
 
 soprano = \relative c'' {
- 	%\global
+ 	\global
 	e,4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
 	e4 g8. g16 a4 ais8.( ais16) b2( fis4) r4
 	%\break
@@ -45,6 +45,9 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
+	e4 e8. e16 e4 e8. e16 dis2 dis2
+	e4 e8. e16 e4 e8.( e16) dis2 r4
+
 }
 
 
