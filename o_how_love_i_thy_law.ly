@@ -18,7 +18,7 @@ global = {
  	\key f \major
  	\time 6/8
 	\aikenHeads
-	\large
+	\huge
 	\override Score.BarNumber.break-visibility = ##(#f #f #f)
 	\partial 8
 }
@@ -29,7 +29,7 @@ soprano = \relative c'' {
 	\bar "|" \break
 	c,8 c( f) a c4 c8 c4 bes8 a4 g8 f( e) f a4 g8 g4.( f4) b8\rest
 	\bar "||"
-	c4. c c8 b c a4. a a a8 gis a f4.
+	c4. \mark Chorus c c8 b c a4. a a a8 gis a f4.
 	f8 f f e4 d8 e4. g c(~ c8 d) b c4.~ c
 	c4. c c8 b c a4. a f g8 f d d4.
 	c8 c c f4 g8 a4 f8 g4 f8 f4.~ f~ f~ f4
