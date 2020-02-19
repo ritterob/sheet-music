@@ -23,7 +23,7 @@ global = {
 	\set Timing.baseMoment = #(ly:make-moment 1/4)
 	\set Timing.beatStructure = #'(1 1 1)
 	\aikenHeads
-  	\large
+  	\huge
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
  	\partial 4
