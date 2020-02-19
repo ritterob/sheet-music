@@ -38,7 +38,7 @@ soprano = \relative c'' {
 	g4 a b a8 b c4 b b( a) g a b a8 g fis4 g a2
 	g4 a b a8 b c4 b b( a) b a8 g fis( g) a4 g4.
 	\bar "||"
-	d8 b'4 a g4. d8 b'4 a g4. e8 b'4 a g4. d8 b'4.( c16 b) a4.
+	d8 \mark Chorus b'4 a g4. d8 b'4 a g4. e8 b'4 a g4. d8 b'4.( c16 b) a4.
 	d,8 b'4 a g4. d8 b'4 a g4. e8 b'4 a g4. g8 fis( g) a4 g1
 	\bar "|."
 }
