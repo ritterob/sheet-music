@@ -4,7 +4,7 @@
  	title = "Be Thou My Vision"
  	composer = "Traditional Irish Melody"
  	poet = "Ancient Irish Poem, Tr. Mary E. Byrne"
-	meter = "Verse 3 by Eleanor H. Hull"
+	meter = "Stanza 3 by Eleanor H. Hull"
 	copyright= "Public Domain"
 	tagline = ""
 }
