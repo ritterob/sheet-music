@@ -76,6 +76,13 @@ tenor = \transpose f f {
 	\relative c' {
 		\global
 		\clef "bass"
+		a4 c c4. a8 bes4 f f4. f8
+		f4 a c a c c c( bes)
+		a c c4. a8 bes4 f f4. f8
+		f4 f e4. e8 f2. r4
+		bes4 bes bes4. f8 f4 f a4. c8
+		b4 b b4. b8 c4 b bes r4
+		
 	}
 }
 
