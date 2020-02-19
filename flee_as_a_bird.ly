@@ -21,7 +21,7 @@ global = {
  	\key g \major
  	\time 4/4
 	\aikenHeads
-  	\large
+  	\huge
 	\set Timing.beamExceptions = #'()
 	\set Timing.baseMoment = #(ly:make-moment 1/4)
 	\set Timing.beatStructure = #'(1 1 1 1)
@@ -42,7 +42,8 @@ soprano = \relative c'' {
 	e4 g8. g16 a4 ais8.( ais16) b2( fis4) b4\rest
 	%\break
 	e,4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
-	e4 g8. g16 fis4 b8. b16 e,2. \afterGrace b'4\rest fis4
+	e4 g8. g16 fis4 b8. b16 \slurDashed e,2.( \afterGrace b'4\rest fis4)
+	\slurSolid
 	g4 b8. a16 g4 e'8.( d16) d4.( c16 b) a2
 	b4 a8. b16 d8(c) b a g2 fis4 b4\rest
 	e,4 b'8. b16 b4 c8. b16 b4.( a16 g) fis4.
@@ -58,7 +59,8 @@ alto = \relative c' {
 	e4 e8. e16 e4 e8. e16 dis2 dis
 	e4 e8. e16 e4 e8.( e16) dis2. s4
 	e4 e8. e16 e4 e8. e16 dis2 dis
-	e4 e8. e16 dis4 dis8. dis16 e2. \afterGrace s4 d!4
+	e4 e8. e16 dis4 dis8. dis16 \slurDashed e2.( \afterGrace s4 d!4)
+	\slurSolid
 	d4 d8. d16 g4 g8.( g16) fis2 fis
 	g4 g8. g16 a4 e8 e e2 dis4 s4
 	e4 e8. e16 e4 e8. e16 dis2 dis4.
@@ -73,7 +75,8 @@ tenor = \relative c' {
 	g4 g8. g16 g4 a8. g16 fis2 a
 	g4 b8. b16 c4 g8.( e16) fis2( a4) s4
 	g4 g8. g16 g4 a8. g16 fis2 a
-	g4 b8. b16 b4 fis8. a16 g2. \afterGrace s4 c4
+	g4 b8. b16 b4 fis8. a16 \slurDashed g2.( \afterGrace s4 c4)
+	\slurSolid
 	b4 d8. c16 b4 b8.( b16) a2 d2
 	d4 c8. d16 e4 d8 c b2 a4 s4
 	g4 g8. g16 g4 a8. g16 fis2 a4.
@@ -88,7 +91,8 @@ bass = \relative c {
 	e4 e8. e16 e4 e8. e16 b2 b
 	e4 e8. e16 c4 c8.( c16) b2. d4\rest
 	e4 e8. e16 e4 e8. e16 b2 b
-	e4 e8. e16 b4 b8. b16 e2. \afterGrace d4\rest d4
+	e4 e8. e16 b4 b8. b16 \slurDashed e2.( \afterGrace d4\rest d4)
+	\slurSolid
 	g4 g8. g16 g4 g8.( g16) d2 d2
 	g4 g8. g16 c,4 a8 a b2 b4 d4\rest
 	e4 e8. e16 e4 e8. e16 b2 b4.
