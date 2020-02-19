@@ -13,6 +13,7 @@
 	#(set-paper-size "letter")
 	indent = 0
   	page-count = #1
+	print-page-number = "false"
 }
 
 
