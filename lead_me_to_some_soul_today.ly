@@ -43,7 +43,8 @@ lead = {
 
 soprano = \transpose f f {
 	\relative c'' {
- 		\global c
+ 		\global
+		f,4 a a4. g8 f4 bes bes4.
 	}
 }
 
@@ -75,14 +76,14 @@ bass = \transpose f f {
 
 
 verseOne = \lyricmode {
-	Lead me to some soul today,
+	Lead me to some soul to -- day,
 	O teach me, Lord, just what to say;
 	Friends of mine are lost in sin,
-	And cannot find their way.
+	And can -- not find their way.
 	Few there are who seem to care,
 	And few there are who pray;
 	Melt my heart and fill my life,
-	Give me one soul today.
+	Give me one soul to -- day.
 }
 
 
