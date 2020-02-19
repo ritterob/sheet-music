@@ -40,14 +40,16 @@ soprano = \relative c'' {
 	e4 b'8. b16 b4 c8. b16 b4.( a16 g) fis2
 	e4 g8. g16 fis4 b8. b16 e,2. r4
 	g4 b8. a16 g4 e'8.( d16) d4.( c16 b) a2
+	b4 a8. b16 d8(c) b a g2 fis4 r4
 }
 
 
 alto = \relative c' {
 	\global
-	e4 e8. e16 e4 e8. e16 dis2 dis2
-	e4 e8. e16 e4 e8.( e16) dis2 r4
-
+	e4 e8. e16 e4 e8. e16 dis2 dis
+	e4 e8. e16 e4 e8.( e16) dis2. r4
+	e4 e8. e16 e4 e8. e16 dis2 dis
+	e4 e8. e16 dis4 dis8. dis16 e2. r4
 }
 
 
@@ -77,7 +79,7 @@ verseOne = \lyricmode {
 	thou who art wea -- ry_of sin;
 	Go to the clear flow -- ing foun -- tain
 	where you may wash and be clean.
-	Haste, then, th’A -- ven -- ger_is near __ thee;
+	Fly, for th’A -- ven -- ger_is near __ thee;
 	call, and the Sav -- ior will hear thee;
 	He on His bos -- om will bear thee;
 	O thou who art wea -- ry of sin,
@@ -91,7 +93,7 @@ verseTwo = \lyricmode {
 	now unto Him draw near;
 	Peace then shall flow like a ri -- ver,
 	thou shalt be saved from thy fear.
-	Hark! 'tis the Sav -- ior call -- ing!
+	Hark! ’tis the Sav -- ior call -- ing!
 	Haste! for the twi -- light is fall -- ing!
 	Flee, for the night is appalling!
 	And thou shalt be saved from thy fear.
