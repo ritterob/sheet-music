@@ -1,9 +1,9 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Lead, Kindly Light"
+ 	composer = "J. B. Dykes"
+ 	poet = "J. H. Newman"
 	%meter = ""
 	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
@@ -19,16 +19,16 @@
 
 
 global = {
- 	\key c \major
- 	\time 4/4
+ 	\key aes \major
+ 	\time 3/4
 	\aikenHeads
   	\huge
 	\set Timing.beamExceptions = #'()
 	\set Timing.baseMoment = #(ly:make-moment 1/4)
-	\set Timing.beatStructure = #'(1 1 1 1)
+	\set Timing.beatStructure = #'(1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 4.
 }
 
 
