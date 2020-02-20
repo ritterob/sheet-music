@@ -44,6 +44,7 @@ soprano = \relative c'' {
 	b'8 b4 cis8 d( cis) b4 a( fis2) a8 a b4( d) cis( b) a( fis2)
 	a4 fis'2(~ fis8 e) d4 e( b2) d4 d( a2) g4 fis2
 	b4( a) fis2(~ fis8 e d4) e b d4. d8 d8. d16 d4 d8 b a b d4 d2.
+	\bar "|."
 }
 
 
