@@ -89,7 +89,7 @@ bass = \relative c {
 }
 
 
-% Some useful characters: — “ ” ‘ ’
+% Some useful characters: – — “ ” ‘ ’
 
 
 verseOne = \lyricmode {
@@ -105,11 +105,24 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	I was not ev -- er thus, nor prayed that Thou
+	Should’st lead me on;
+	I loved to choose and see my path; but now
+	Lead Thou me on.
+	I loved the gar -- ish day, and spite of fears,
+	Pride ruled my will; Re -- mem -- ber not past years.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	So long Thy pow’r has blest me, sure it still
+	Will lead me on
+	O’er moor and fen, o’er crag and tor -- rent, till
+	The night is gone.
+	And with the morn, those an -- gel– fac -- es smile,
+	Which I have loved long since, and lost a -- while.
+	A -- men.
 }
 
 
