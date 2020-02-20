@@ -1,11 +1,11 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
+ 	title = "Swing Low, Sweet Chariot"
+ 	composer = "African-American Spiritual"
  	poet = ""
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = "Public Domain"
 	tagline = ""
 }
 
@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key f \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 4
 }
 
 
@@ -39,7 +39,9 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	a4 \mark "Refrain" f2. a4 f4. f8 d( c4.) f8 f f f a a c4 c2.
+	d8( c) a2. c4 f,4. f8 d( c4.) f8 f f g a a g4 f2.
+	\bar "|."
 }
 
 
@@ -64,7 +66,13 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
+	Swing low, sweet char -- i -- ot, com -- ing for to car -- ry me home;
+	swing low, sweet char -- i -- ot, com -- ing for to car -- ry me home.
 	\set stanza = "1."
+	I looked o -- ver Jor -- dan, and what did I see?
+	Com -- ing for to car -- ry me home.
+	A band of an -- gels com -- ing af -- ter me,
+	com -- ing for to car -- ry me home.
 }
 
 
