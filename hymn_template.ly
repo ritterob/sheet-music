@@ -38,7 +38,8 @@ lead = {
 
 
 soprano = \relative c'' {
- 	\global c
+ 	\global
+	c
 }
 
 
