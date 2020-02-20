@@ -60,7 +60,7 @@ bass = \relative c {
 }
 
 
-% Some useful characters: — “ ” ‘ ’
+% Some useful characters: – — “ ” ‘ ’
 
 
 verseOne = \lyricmode {
