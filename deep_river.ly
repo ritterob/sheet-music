@@ -2,8 +2,8 @@
 
 \header {
  	title = "Deep River"
- 	composer = "Traditional Spritual"
- 	poet = "Anon."
+ 	composer = "African-American Spritual"
+ 	poet = "Traditional"
 	%meter = ""
 	copyright = "Public Domain"
 	tagline = ""
