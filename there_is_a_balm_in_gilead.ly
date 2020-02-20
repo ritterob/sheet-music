@@ -65,6 +65,10 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	c8( bes) c bes  a2. g4 a8 bes c2 a4 c4. c8 d4 c bes2( d)
+	c8( bes) c bes a2. bes4 a8 bes c2 bes4 c4. a8 c4 bes a2
+	s4 a8( a) c4. a8 c4 c g a2 d8( d) c4 c c c c2.
+	bes8( bes) c4. a8 c4 c d ees2 d4 c4. a8 c4 bes a2( d)
 }
 
 
@@ -72,7 +76,7 @@ bass = \relative c {
 	\global
 	\clef "bass"
 	f4 f8 f f2. f4 f8 f f2 f4 f4. f8 f4 f c1
-	c4 c8 c f2. g4 f8 f f2 d4 c4. c8 c4 c f2
+	c4 c8 c f2. g4 f8 f f2 d4 c4. c8 c4 c <f f,>2
 	d4\rest f8( f) f4. f8 f4 f f f2 f8( f) f4 f a f c2.
 	c8( c) f4. f8 f4 f f f2 bes,4 c4. c8 c4 c d2( bes)
 }
@@ -82,7 +86,8 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
-	\repeat unfold 28 {\skip 1}
+	There is a balm in Gil -- e -- ad to make the wound -- ed whole,
+	there is a balm in Gil -- e -- ad to heal the sin– sick soul.
 	\set stanza = "1."
 	Some times I feel dis -- cour -- aged and think my work’s in vain,
 	but then the Ho -- ly Spi -- rit re -- vives my soul a -- gain.
@@ -98,8 +103,6 @@ verseTwo = \lyricmode {
 
 
 verseThree = \lyricmode {
-	There is a balm in Gil -- e -- ad to make the wound -- ed whole,
-	there is a balm in Gil -- e -- ad to heal the sin– sick soul.
 }
 
 
