@@ -44,8 +44,10 @@ soprano = \relative c'' {
 	ees,8 aes bes c8. c16 bes8 aes f aes f4( ees2)
 	ees4 aes4.g8 g4( aes2)
 	bes4 bes bes bes2 bes4 bes8 c bes( aes) g( f) ees2.
-	c'4 bes aes aes4. aes8^\markup {\italic "rit."} g f ees4( aes4.) g8 g4( aes)\fermata
+	c'4 bes aes aes4. aes8^\markup {\italic "rit."} g f ees4( aes4.) g8 g4( aes8)\fermata
 	\bar "|." 
+	aes2 aes
+	\bar ".."
 }
 
 
@@ -56,20 +58,34 @@ alto = \relative c' {
 	ees8 ees ees ees8. c16 des8 ees ees des des4( c2)
 	c4 ees4. ees8 ees2.
 	ees4 d ees f2 ees4 ees8 ees d4 d ees( c des!)
-	c des ees8( e) f4. f8 ees des c4( ees4.) des8 des4( c)
+	c des ees8( e) f4. f8 ees des c4( ees4.) des8 des4( c8)
+	des2 c
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	
+	c8 c des c8. aes16 aes8 aes aes aes aes4( c des)
+	ees c c8( aes) aes4( g8)
+	des' des des c8. aes16 aes8 aes aes aes aes2.
+	aes4 c4. bes8 des4( c2)
+	bes4 aes g8( c) bes4( aes) g g8 g aes4 aes g( aes bes)
+	aes f8( g) aes4 aes4. f8 g aes aes4( c4.) bes8 bes4( aes8)\fermata
+	f2 ees
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	aes'8 aes aes aes8. aes,16 bes8 c des f aes2( bes4)
+	c bes aes ees4.
+	ees8 f g aes8. aes,16 bes8 c des f aes4( aes, c)
+	ees ees4. ees8 ees4( aes2)
+	g4 f ees d2 ees4 bes8 bes bes4 bes ees2.
+	aes,4 bes c des4. des8 des des ees2 ees4 ees( aes,8)
+	des2 aes
 }
 
 
