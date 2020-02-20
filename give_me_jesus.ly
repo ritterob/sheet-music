@@ -44,7 +44,7 @@ soprano = \relative c'' {
 	a4.( g8) g4 e g8 a4. c,2
 	e4 d c1 c2
 	\bar "||"
-	e4 \mark "Chorus" g g2.( a4) b2
+	e4 \mark "Refrain" g g2.( a4) b2
 	a4 g c2.( d4) e2
 	e4 d c a2 c4 c,2
 	e4 d c1 c2
