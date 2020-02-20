@@ -1,11 +1,11 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "There Is a Balm in Gilead"
+ 	composer = "Traditional Spiritual"
+ 	poet = "Anon."
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = "Public Domain"
 	tagline = ""
 }
 
@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key f \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 2
 }
 
 
@@ -74,7 +74,8 @@ verseTwo = \lyricmode {
 
 
 verseThree = \lyricmode {
-	\set stanza = "3."
+	There is a balm in Gil -- e -- ad to make the wound -- ed whole,
+	there is a balm in Gil -- e -- ad to heal the sin– sick soul.
 }
 
 
