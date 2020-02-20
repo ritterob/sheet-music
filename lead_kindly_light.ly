@@ -39,7 +39,8 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	ees,8 aes bes c8. c16 bes8 aes f aes f4( ees2)
+	aes4 g aes bes4.
 }
 
 
