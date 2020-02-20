@@ -2,8 +2,8 @@
 
 \header {
  	title = "There Is a Balm in Gilead"
- 	composer = "Traditional Spiritual"
- 	poet = "Anon."
+ 	composer = "African-American Spiritual"
+ 	poet = ""
 	%meter = ""
 	copyright = "Public Domain"
 	tagline = ""
@@ -89,7 +89,7 @@ verseOne = \lyricmode {
 	There is a balm in Gil -- e -- ad to make the wound -- ed whole,
 	there is a balm in Gil -- e -- ad to heal the sin– sick soul.
 	\set stanza = "1."
-	Some times I feel dis -- cour -- aged and think my work’s in vain,
+	Some -- times I feel dis -- cour -- aged and think my work’s in vain,
 	but then the Ho -- ly Spi -- rit re -- vives my soul a -- gain.
 }
 
