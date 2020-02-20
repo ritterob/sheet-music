@@ -1,11 +1,11 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Deep River"
+ 	composer = "Traditional Spritual"
+ 	poet = "Anon."
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = "Public Domain"
 	tagline = ""
 }
 
@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key d \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -39,7 +39,11 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	fis,2(~ fis8 e d4) e b2 d4 d d d'4. b8 a4 fis2( e4)
+	fis2(~ fis8 e d4) e b d4. d8 d8. d16 d4 d8 b a b d4 d2.
+	b'8 b4 cis8 d( cis) b4 a( fis2) a8 a b4( d) cis( b) a( fis2)
+	a4 fis'2(~ fis8 e) d4 e( b2) d4 d( a2) g4 fis2
+	b4( a) fis2(~ fis8 e d4) e b d4. d8 d8. d16 d4 d8 b a b d4 d2.
 }
 
 
@@ -57,6 +61,8 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
+	d1 g,4 g2 g4 a a b4. b8 fis'4 fis( g a,)
+	d1 g,4 g bes4. bes8 a8. a16 a4 a8 a a a d4 d2.
 }
 
 
@@ -64,7 +70,11 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
-	\set stanza = "1."
+	Deep ri -- ver, my home is o -- ver Jor -- dan.
+	Deep ri -- ver, Lord, I want to cross o -- ver in -- to camp -- ground.
+	Oh, don’t you want to go to that gos -- pel feast,
+	that pro -- mised land where all is peace?
+	Oh, deep ri -- ver, Lord, I want to cross o -- ver in -- to camp -- ground.
 }
 
 
@@ -112,6 +122,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 70
 	}
 }
