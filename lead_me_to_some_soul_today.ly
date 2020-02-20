@@ -47,11 +47,11 @@ soprano = \transpose f g {
 		f,4 a a4. g8 f4 bes bes4. d,8
 		c4 f a c g a g2
 		f4 a a4. g8 f4 bes bes4. d,8
-		c4 a' g4. a8 f2. b4\rest
+		c4 a' g4. a8 f2. a4\rest
 		f4 f g8( f4) g8 a4 a f4. f8
-		g4 g a8( g4) a8 g2. b4\rest
+		g4 g a8( g4) a8 g2. a4\rest
 		f4 a a4. g8 f4 bes bes4. d,8
-		c4 a' g4. a8 f2. b4\rest
+		c4 a' g4. a8 f2. a4\rest
 		\bar "|."
 	}
 }
@@ -95,11 +95,11 @@ bass = \transpose f g {
 		f4 f f4. f8 bes,4 bes bes4. d8
 		f4 f f f c c c2
 		f4 f f4. f8 bes,4 bes bes4. b8
-		c4 c c4. c8 f2. d4\rest
+		c4 c c4. c8 f2. c4\rest
 		bes4 bes bes4. bes8 f'4 f f4. a8
-		g4 g g4. g8 c,4 d e d\rest
+		g4 g g4. g8 c,4 d e c\rest
 		f4 f f4. f8 bes,4 bes bes4. bes8
-		c4 c c4. c8 <f f,>2. d4\rest
+		c4 c c4. c8 <f f,>2. c4\rest
 	}
 }
 
