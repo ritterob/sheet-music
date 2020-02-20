@@ -43,7 +43,7 @@ soprano = \relative c'' {
 	\time 2/4 a8( g) a g
 	\time 4/4
 	f2. c4 f8 g a2 f4 a4. f8 a4 g f2 ^\markup {\italic "Fine"}
-	\bar "|."
+	\bar "|." %\break
 	b4\rest f8( f) a4. f8 a4 a bes c2 bes8( bes) a4 a c a g2.
 	f8( f) a4. f8 a4 a bes c2 bes4 a4. f8 a4 g f2( bes)
 	\once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
@@ -55,6 +55,10 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
+	f4 f8 d c2. bes4 c8 c f2 f4 f4. f8 f4 f e1
+	e4 e8 e c2. c4 f8 f f2 f4 f4. f8 e4 e c2
+	s4 c8( c) f4. c8 f4 f f f2 f8( f) f4 f f f e2.
+	d8( d) f4. f8 f4 f g a2 g4 f4. f8 e4 e d2( f)
 }
 
 
@@ -67,6 +71,10 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
+	f4 f8 f f2. f4 f8 f f2 f4 f4. f8 f4 f c1
+	c4 c8 c f2. g4 f8 f f2 d4 c4. c8 c4 c f2
+	d4\rest f8( f) f4. f8 f4 f f f2 f8( f) f4 f a f c2.
+	c8( c) f4. f8 f4 f f f2 bes,4 c4. c8 c4 c d2( bes)
 }
 
 
