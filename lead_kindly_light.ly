@@ -45,7 +45,7 @@ soprano = \relative c'' {
 	ees4 aes4.g8 g4( aes2)
 	bes4 bes bes bes2 bes4 bes8 c bes( aes) g( f) ees2.
 	c'4 bes aes aes4. aes8^\markup {\italic "rit."} g f ees4( aes4.) g8 g4( aes8)\fermata
-	\bar "|." 
+	\bar "|."
 	aes2 aes
 	\bar ".."
 }
