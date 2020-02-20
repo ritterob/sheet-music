@@ -2,8 +2,8 @@
 
 \header {
  	title = "Give Me Jesus"
- 	composer = "Traditional Spritual"
- 	poet = "Anon."
+ 	composer = "African-American Spritual"
+ 	poet = ""
 	%meter = ""
 	copyright = \markup "Public Domain"
 	tagline = ""
