@@ -5,7 +5,7 @@
  	composer = "Traditional Spritual"
  	poet = "Anon."
 	%meter = ""
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = \markup "Public Domain"
 	tagline = ""
 }
 
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 2
 }
 
 
@@ -39,12 +39,23 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	a4.( g8) g4 e g8 a4. c,2
+	e4.( c8) d4 c e8 g4. g2
+	a4.( g8) g4 e g8 a4. c,2
+	e4 d c1 c2
+	\bar "||"
+	e4 \mark "Chorus" g g2.( a4) b2
+	a4 g c2.( d4) e2
+	e4 d c a2 c4 c,2
+	e4 d c1 c2
+	\bar "|."
 }
 
 
 alto = \relative c' {
 	\global
+	d4.( d8) e4 c d8 d4. c2
+	b4.( b8) a4 a a8 b4. c2
 }
 
 
@@ -65,24 +76,24 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
-	In the morning, when I rise,
-	in the morning, when I rise,
-	in the morning, when I rise,
-	give me Jesus.
+	In_the morn -- ing, when I rise,
+	in_the morn -- ing, when I rise,
+	in_the morn -- ing, when I rise,
+	give me Je -- sus.
 
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
-	Dark midnight was my cry,
-	dark midnight was my cry,
-	dark midnight was my cry,
-	give me Jesus.
-	Give me Jesus.
-	give me Jesus,
-	you may have all this world,
-	give me Jesus.
+	Dark mid -- night was my cry,
+	dark mid -- night was my cry,
+	dark mid -- night was my cry,
+	give me Je -- sus.
+	Give me Je -- sus,
+	give me Je -- sus;
+	you may have all this world;
+	give me Je -- sus.
 }
 
 
@@ -91,7 +102,7 @@ verseThree = \lyricmode {
 	Oh, when I come to die,
 	oh, when I come to die,
 	oh, when I come to die,
-	give me Jesus.
+	give me Je -- sus.
 }
 
 
