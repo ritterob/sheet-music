@@ -39,7 +39,13 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	a8( \mark Refrain g) a g f2. c4 f8 g a2f4 a4. a8 bes4 a g2(bes)
+	\time 2/4 a8( g) a g
+	\time 4/4
+	f2. c4 f8 g a2 f4 a4. f8 a4 g f2 ^\markup {\italic "Fine"}
+	\bar "|."
+	b4\rest f8( f) a4. f8 a4 a bes c2 bes8( bes) a4 a c a g2.
+	f8( f)
 }
 
 
@@ -65,6 +71,7 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	
 }
 
 
@@ -113,6 +120,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 76
 	}
 }
