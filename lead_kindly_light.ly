@@ -2,8 +2,8 @@
 
 \header {
  	title = "Lead, Kindly Light"
- 	composer = "J. B. Dykes"
- 	poet = "J. H. Newman"
+ 	composer = "John Bacchus Dykes"
+ 	poet = "John Henry Newman"
 	%meter = ""
 	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
