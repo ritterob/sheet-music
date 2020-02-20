@@ -42,11 +42,22 @@ soprano = \relative c'' {
 	a4 \mark "Refrain" f2. a4 f4. f8 d( c4.) f8 f f f a a c4 c2.
 	d8( c) a2. c4 f,4. f8 d( c4.) f8 f f g a a g4 f2.
 	\bar "|."
+	a4 c f,8(d) f( f4) d8 f( f) f4 d8( c4.)
+	f8 f f f a a c4 c2.
+	c4 d8( c) a4 a8( g) f4 f8 f( f)( f) d( c4.)
+	f8 f f g a a g4 f2.
+	\bar "||"
 }
 
 
 alto = \relative c' {
 	\global
+	e4 c2. c4 d4. d8 bes( a4.) c8 c d d f f f4 e( f g)
+	e f2( ees4) ees d4. d8 d( c4.) d8 d f f f f e4 d( c2)
+	f4 f c8( d) d( d4) d8 d( d) d4 d8( c4.)
+	c8 c d d f f f4 e( f g)
+	e f f ees ees d8 d( d)( d) d( c4.)
+	d8 d f f f f e4 c2.
 }
 
 
@@ -69,9 +80,9 @@ verseOne = \lyricmode {
 	Swing low, sweet char -- i -- ot, com -- ing for to car -- ry me home;
 	swing low, sweet char -- i -- ot, com -- ing for to car -- ry me home.
 	\set stanza = "1."
-	I looked o -- ver Jor -- dan, and what did I see?
-	Com -- ing for to car -- ry me home.
-	A band of an -- gels com -- ing af -- ter me,
+	I looked o-ver Jor-dan, and what_did I see,
+	com -- ing for to car -- ry me home?
+	A band of an -- gels com -- ing_af-ter me,
 	com -- ing for to car -- ry me home.
 }
 
