@@ -5,7 +5,7 @@
  	composer = ""
  	poet = ""
 	%meter = ""
-	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
 }
 
