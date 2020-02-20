@@ -1,9 +1,9 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Give Me Jesus"
+ 	composer = "Traditional Spritual"
+ 	poet = "Anon."
 	%meter = ""
 	%copyright= \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
@@ -65,16 +65,33 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	In the morning, when I rise,
+	in the morning, when I rise,
+	in the morning, when I rise,
+	give me Jesus.
+
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	Dark midnight was my cry,
+	dark midnight was my cry,
+	dark midnight was my cry,
+	give me Jesus.
+	Give me Jesus.
+	give me Jesus,
+	you may have all this world,
+	give me Jesus.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	Oh, when I come to die,
+	oh, when I come to die,
+	oh, when I come to die,
+	give me Jesus.
 }
 
 
