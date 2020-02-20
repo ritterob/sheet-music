@@ -3,7 +3,7 @@
 \header {
  	title = "Deep River"
  	composer = "African-American Spritual"
- 	poet = "Traditional"
+ 	poet = ""
 	%meter = ""
 	copyright = "Public Domain"
 	tagline = ""
