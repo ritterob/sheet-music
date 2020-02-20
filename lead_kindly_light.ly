@@ -41,6 +41,8 @@ soprano = \relative c'' {
  	\global
 	ees,8 aes bes c8. c16 bes8 aes f aes f4( ees2)
 	aes4 g aes bes4.
+	ees,8 aes bes c8. c16 bes8 aes f aes f4( ees2)
+	ees4 aes4.g8 g4( aes2)
 }
 
 
