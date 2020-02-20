@@ -65,6 +65,12 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Lead, kind -- ly Light, a -- mid th’en -- cir -- cling gloom,
+	Lead Thou me on;
+	The night is dark, and I am far from home;
+	Lead Thou me on.
+	Keep Thou my feet; I do not ask to see
+	The dis -- tant scene— one step e -- nough for me.
 }
 
 
