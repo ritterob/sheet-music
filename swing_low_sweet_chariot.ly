@@ -79,7 +79,7 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
-	
+	c4 f2. a4, bes4. bes8 f2
 }
 
 
