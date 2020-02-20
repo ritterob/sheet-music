@@ -45,7 +45,11 @@ soprano = \relative c'' {
 	f2. c4 f8 g a2 f4 a4. f8 a4 g f2 ^\markup {\italic "Fine"}
 	\bar "|."
 	b4\rest f8( f) a4. f8 a4 a bes c2 bes8( bes) a4 a c a g2.
-	f8( f)
+	f8( f) a4. f8 a4 a bes c2 bes4 a4. f8 a4 g f2( bes)
+	\once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup {\italic "To Refrain"}
+	\bar "||"
 }
 
 
@@ -70,13 +74,18 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
+	\repeat unfold 28 {\skip 1}
 	\set stanza = "1."
-	
+	Some times I feel dis -- cour -- aged and think my work’s in vain,
+	but then the Ho -- ly Spi -- rit re -- vives my soul a -- gain.
 }
 
 
 verseTwo = \lyricmode {
+	\repeat unfold 28 {\skip 1}
 	\set stanza = "2."
+	If_you can -- not sing like an -- gels, if_you can -- not preach like Paul,
+	you_can tell the love of Je -- sus, and say, “He died for all.”
 }
 
 
