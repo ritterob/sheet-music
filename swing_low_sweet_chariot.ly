@@ -41,7 +41,7 @@ soprano = \relative c'' {
  	\global
 	a4 \mark "Refrain" f2. a4 f4. f8 d( c4.) f8 f f f a a c4 c2.
 	d8( c) a2. c4 f,4. f8 d( c4.) f8 f f g a a g4 f2.
-	\bar "|."
+	\bar "|." \break
 	a4 c f,8(d) f( f4) d8 f( f) f4 d8( c4.)
 	f8 f f f a a c4 c2.
 	c4 d8( c) a4 a8( g) f4 f8 f( f)( f) d( c4.)
@@ -103,17 +103,32 @@ verseOne = \lyricmode {
 
 
 verseTwo = \lyricmode {
+	\repeat unfold 28 {\skip 1}
 	\set stanza = "2."
+	If you get there be -- fore I do,
+	com -- ing for to car -- ry me home;
+	Tell all my friends I’m com -- ing_there too,
+	com -- ing for to car -- ry me home.
 }
 
 
 verseThree = \lyricmode {
+	\repeat unfold 28 {\skip 1}
 	\set stanza = "3."
+	The bright -- est day that ev-er I’ll know,
+	com -- ing for to car -- ry me home;
+	When Je -- sus washed me white as __ snow,
+	com -- ing for to car -- ry me home.
 }
 
 
 verseFour = \lyricmode {
+	\repeat unfold 28 {\skip 1}
 	\set stanza = "4."
+	I’m some -- times up and some -- times down,
+	com -- ing for to car -- ry me home;
+	But still my soul feels heav -- en-ly __ bound,
+	com -- ing for to car -- ry me home.
 }
 
 
