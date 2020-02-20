@@ -56,6 +56,8 @@ alto = \relative c' {
 	\global
 	d4.( d8) e4 c d8 d4. c2
 	b4.( b8) a4 a a8 b4. c2
+	d4.( d8) c4 c c8 b4. a2
+	b4 b g2( a) g
 }
 
 
