@@ -43,6 +43,9 @@ soprano = \relative c'' {
 	aes4 g aes bes4.
 	ees,8 aes bes c8. c16 bes8 aes f aes f4( ees2)
 	ees4 aes4.g8 g4( aes2)
+	bes4 bes bes bes2 bes4 bes8 c bes( aes) g( f) ees2.
+	c'4 bes aes aes4. aes8 g f ees4( aes4.) g8 g4( aes)\fermata
+	\bar "|." 
 }
 
 
@@ -121,6 +124,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 70
 	}
 }
