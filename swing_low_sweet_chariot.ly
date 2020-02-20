@@ -46,6 +46,9 @@ soprano = \relative c'' {
 	f8 f f f a a c4 c2.
 	c4 d8( c) a4 a8( g) f4 f8 f( f)( f) d( c4.)
 	f8 f f g a a g4 f2.
+	\once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup {\italic "To Refrain"}
 	\bar "||"
 }
 
@@ -53,7 +56,7 @@ soprano = \relative c'' {
 alto = \relative c' {
 	\global
 	e4 c2. c4 d4. d8 bes( a4.) c8 c d d f f f4 e( f g)
-	e f2( ees4) ees d4. d8 d( c4.) d8 d f f f f e4 d( c2)
+	e f2( ees4) ees d4. d8 d( c4.) d8 d f f f f e4 d( c2) ^\markup {\italic "Fine"}
 	f4 f c8( d) d( d4) d8 d( d) d4 d8( c4.)
 	c8 c d d f f f4 e( f g)
 	e f f ees ees d8 d( d)( d) d( c4.)
@@ -64,12 +67,19 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	c4 a2. f4 f4. f8 f2 a8 a bes bes c c a4 g2.
+	bes4 c2. a4 bes4. bes8 bes( a4.) a8 a bes bes c c bes4 bes( a2)
+	c4 a a8( a) a( a4) a8 bes8( bes) bes4 bes8( a4.)
+	a8 a bes bes c c a4 g2.
+	bes4 bes8( a) c4 c8( bes) a4 bes8 bes( bes)( bes) bes(a4.)
+	a8 a bes bes c c bes4 a2.
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	
 }
 
 
