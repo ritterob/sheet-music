@@ -44,19 +44,26 @@ soprano = \relative c'' {
 	ees,8 aes bes c8. c16 bes8 aes f aes f4( ees2)
 	ees4 aes4.g8 g4( aes2)
 	bes4 bes bes bes2 bes4 bes8 c bes( aes) g( f) ees2.
-	c'4 bes aes aes4. aes8 g f ees4( aes4.) g8 g4( aes)\fermata
+	c'4 bes aes aes4. aes8^\markup {\italic "rit."} g f ees4( aes4.) g8 g4( aes)\fermata
 	\bar "|." 
 }
 
 
 alto = \relative c' {
 	\global
+	ees8 ees ees ees8. c16 des8 ees ees des des4( ees2)
+	ees4 ees ees8( c) des4.
+	ees8 ees ees ees8. c16 des8 ees ees des des4( c2)
+	c4 ees4. ees8 ees2.
+	ees4 d ees f2 ees4 ees8 ees d4 d ees( c des!)
+	c des ees8( e) f4. f8 ees des c4( ees4.) des8 des4( c)
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	
 }
 
 
