@@ -59,14 +59,20 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
-
+	d,4 f f2 g( a4) a a g f2( g f)
+	f4 a a2 bes( c4) a a d cis2( d cis)
+	a4 a a2 a~ a4 bes2 bes4 a2 f~ f4 s4
+	s2 a f~ f4 f a g f2( g f)
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
-	
+	d4 f d2 e( f4) a a, a d1~ d2
+	f4 a f2 g( a4) a f d a1( a'2)
+	a4 g f2 d~ d4 e2 c4 d2 c( bes4) d\rest
+	d2\rest a a~ a4 a a a d1~ d2
 }
 
 
@@ -126,6 +132,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 92
 	}
 }
