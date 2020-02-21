@@ -39,8 +39,8 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	d,4 f a2 a2~ a4 d, f e d1~ d2
-	f4 a c2 c~ c4 a4 d8( c) a4 a1~ a2
+	d,8( d) f4 a2 a2~ a4 d, f e d1~ d2
+	f8( f) a4 c2 c~ c4 a4 d8( c) a4 a1~ a2
 	a4 cis d2 f~ f4 d(~ d8 c) a( g) f2 d~ d4
 	d'~ d8 c a( g) f2 d~ d4 d f e d1~ d2
 	\bar "|."
@@ -84,17 +84,25 @@ verseOne = \lyricmode {
 	I want Je -- sus to walk with me;
 	I want Je -- sus to walk with me;
 	all a -- long my pil -- grim jour -- ney,
-	Lord, I want Je -- sus to walk with me.
+	Lord, I want Je -- sus to walk with me. __
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	In my tri -- als, Lord, walk with me;
+	in my tri -- als, Lord, walk with me;
+	when my heart is al -- most break -- ing,
+	Lord, I want Je -- sus to walk with me. __
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	When_I’m in trou -- ble, Lord, walk with me;
+	when_I’m in trou -- ble, Lord, walk with me;
+	when my head is bowed in sor -- row,
+	Lord, I want Je -- sus to walk with me. __
 }
 
 
