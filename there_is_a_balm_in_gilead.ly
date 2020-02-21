@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-\markup {\magnify #1.8 \bold "21"}
+%\markup {\magnify #1.8 \bold "21"}
 
 \header {
  	title = "There Is a Balm in Gilead"
