@@ -2,7 +2,7 @@
 
 \header {
  	title = "On Calv’ry’s Tree"
- 	composer = "Traditional"
+ 	composer = "Traditional, Arr. Ralph Vaughn Williams"
  	poet = "Rob Ritter"
 	%meter = ""
 	copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
@@ -39,28 +39,40 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	g8( fis) e4 e e d g g a a b b a8( g) e4 d2.
-	g8( fis) e4 e e d g g a a b b a8( g) e4 e2.
-	b'4 d b b8( a) g4 a a b g b b a8( g) e4 d2.
-	g8( fis) e4 e e d g g a a b b a8(g) e4 e2.
+	g8( fis) e4 e e d g g a g8( a) b4 b a8( g) e4 d2.
+	g8( fis) e4 e e d g g a g8( a) b4 b a8( g) e4 e2.
+	b'8( c) d4 b b8( a) g4 a a b g8( a) b4 b a8( g) e4 d2.
+	g8( fis) e4 e e8( d) e( fis) g4 g a g8( a) b4 b a8(g) e4 e2.
 	\bar "|."
 }
 
 
 alto = \relative c' {
 	\global
+	e4 b b c a d b d d8( fis) g4 g e c a2.
+	d4 d c c8( b) a4 d cis d d8( c!) b4 d c c b2.
+	e4 fis fis g8( d) d4 e d d d8( fis) g4 g8( fis) d4 c8( b) a2.
+	d4 d c c c d d8( cis) d4 d8( c!) b4 d e c b2.
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	b8( a) g4 g g fis g g fis g8( c) b4 d c g g2( fis4)
+	g g g g fis g g fis g8( fis) g4 g e e8( fis) g2.
+	g4 b d d8( c) b4 a8( g) fis4 g d'8( c) d4 d8( c) b4 g g2( fis4)
+	g g g a c b8( a) g4 fis g8( fis) g4 fis e e8( fis) g2.
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	e4 e e8( d) c4 c b e d b8( a) g4 g a c d2.
+	b4 c c8( b) a4 d b e d8( c) b( a) g4 b c a e'2.
+	e4 b b' e,8( fis) g4 c, d g b,8( a) g4 g8( a) b4 c d2.
+	b4 c c8( b) a4 a' g8( fis) e4 d b8( a) g4 d' c a <e e'>2.
 }
 
 
