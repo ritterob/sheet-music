@@ -49,8 +49,8 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
-	d4 f d2 cis( d4) d d cis a2( bes a)
-	f'4 a f2( e f4) a a f e2( f g)
+	d8( d) f4 d2 cis( d4) d d cis a2( bes a)
+	f'8( f) a4 f2( e f4) a a f e2( f g)
 	a4 e d2 d2~ d4 g2 e4 d2 d2~ d4 r4
 	r2 d2 a2~ a4 a d cis a2( bes a)
 }
@@ -59,8 +59,8 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
-	d,4 f f2 g( a4) a a g f2( g f)
-	f4 a a2 bes( c4) a a d cis2( d cis)
+	d,8( d) f4 f2 g( a4) a a g f2( g f)
+	f8( f) a4 a2 bes( c4) a a d cis2( d cis)
 	a4 a a2 a~ a4 bes2 bes4 a2 f~ f4 s4
 	s2 a f~ f4 f a g f2( g f)
 }
@@ -69,8 +69,8 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
-	d4 f d2 e( f4) a a, a d1~ d2
-	f4 a f2 g( a4) a f d a1( a'2)
+	d8( d) f4 d2 e( f4) a a, a d1~ d2
+	f8( f) a4 f2 g( a4) a f d a1( a'2)
 	a4 g f2 d~ d4 e2 c4 d2 c( bes4) d\rest
 	d2\rest a a~ a4 a a a d1~ d2
 }
