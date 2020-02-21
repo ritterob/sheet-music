@@ -39,24 +39,34 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	d,4 f a2 a2~ a4 d, f e d1
+	d,4 f a2 a2~ a4 d, f e d1~ d2
+	f4 a c2 c~ c4 a4 d8( c) a4 a1~ a2
+	a4 cis d2 f~ f4 d(~ d8 c) a( g) f2 d~ d4
+	d'~ d8 c a( g) f2 d~ d4 d f e d1~ d2
+	\bar "|."
 }
 
 
 alto = \relative c' {
 	\global
+	d4 f d2 cis( d4) d d cis a2( bes a)
+	f'4 a f2( e f4) a a f e2( f g)
+	a4 e d2 d2~ d4 g2 e4 d2 d2~ d4 r4
+	r2 d2 a2~ a4 a d cis a2( bes a)
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	
 }
 
 
@@ -65,6 +75,10 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	I want Je -- sus to walk with me;
+	I want Je -- sus to walk with me;
+	all a -- long my pil -- grim jour -- ney,
+	Lord, I want Je -- sus to walk with me.
 }
 
 
