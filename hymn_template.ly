@@ -5,7 +5,7 @@
  	composer = ""
  	poet = ""
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
 	tagline = ""
 }
 
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 4
 }
 
 
