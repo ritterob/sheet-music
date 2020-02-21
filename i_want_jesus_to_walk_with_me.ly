@@ -81,8 +81,8 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
-	I want Je -- sus to walk with me;
-	I want Je -- sus to walk with me;
+	I want Je -- sus to walk with me; __
+	I want Je -- sus to walk with me; __
 	all a -- long my pil -- grim jour -- ney,
 	Lord, I want Je -- sus to walk with me. __
 }
@@ -90,8 +90,8 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
-	In my tri -- als, Lord, walk with me;
-	in my tri -- als, Lord, walk with me;
+	In my tri -- als, Lord, walk with me; __
+	in my tri -- als, Lord, walk with me; __
 	when my heart is al -- most break -- ing,
 	Lord, I want Je -- sus to walk with me. __
 }
@@ -99,8 +99,8 @@ verseTwo = \lyricmode {
 
 verseThree = \lyricmode {
 	\set stanza = "3."
-	When_I’m in trou -- ble, Lord, walk with me;
-	when_I’m in trou -- ble, Lord, walk with me;
+	When_I’m in trou -- ble, Lord, walk with me; __
+	when_I’m in trou -- ble, Lord, walk with me; __
 	when my head is bowed in sor -- row,
 	Lord, I want Je -- sus to walk with me. __
 }
