@@ -11,6 +11,7 @@
 
 \paper {
 	#(set-paper-size "letter")
+	ragged-bottom = true
 	indent = 0
   	%page-count = #1
 }
