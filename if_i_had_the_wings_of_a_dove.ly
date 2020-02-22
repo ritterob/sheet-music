@@ -42,7 +42,7 @@ soprano = \transpose g g {
  		\global
 		g \mark "Refrain" g g g b a8 a g4 b8(a16 g)
 		a4 a8( g) a4 b8( d) e4 d8 d b( a) b( a16 g)
-		g4 g8( e) g4 g b a8 a g4
+		g4 g8( e) g4 g b a8 a g4\fermata
 		d8( e) g4. g8 b4\fermata d,8( e) g g4. g2^\markup {\italic "Fine"}
 		\bar "|."
 		b4 b b8( a) g4 a b a8( g) d8( e) g4. g8 b4 d,8( e) g g4. g2
@@ -56,18 +56,24 @@ soprano = \transpose g g {
 
 
 alto = \transpose g g {
-	\relative c'' {
+	\relative c' {
  		\global
-		
+		b4 c b b d c8 c b4 b8( d)
+		fis4 fis fis e8( fis) g4 g8 g d4 c
+		b4 c b b d d8( d) e4
+		d8( c) b4. b8 d4 d4 c8 c4. b2		
 	}
 }
 
 
 tenor = \transpose g g {
-	\relative c' {
+	\relative c, {
  		\global
 		\clef bass
-		
+		d'4 e d d8( e) g4 e8 g g4 b
+		d a8( b) d4 d8( b) c4 b8 b a4 d,8( e)
+		g4 e d d8( e) g4 g8 fis e4
+		g4 b8( d4) e8 d4 b8( a) g e4. d2		
 	}
 }
 
@@ -76,8 +82,7 @@ bass = \transpose g g {
 	\relative c {
  		\global
 		\clef bass
-		g4 g b g g b8 d g,4 g 
-		
+		g4
 	}
 }
 
@@ -157,6 +162,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 66
 	}
 }
