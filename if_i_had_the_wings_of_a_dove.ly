@@ -82,7 +82,10 @@ bass = \transpose g g {
 	\relative c {
  		\global
 		\clef bass
-		g4
+		g4 c b a b d8 d g,4 g8( b)
+		d4 d d e8( d) g4 g8 g fis4 d4
+		g, c b a b a8 a b4\fermata
+		d g,4. a8 g4 g8( b) c a4. g2
 	}
 }
 
