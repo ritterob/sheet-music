@@ -44,6 +44,8 @@ soprano = \transpose g g {
 		a4 a8( g) a4 b8( d) e4 d8 d b( a) b( a16 g)
 		g4 g8( e) g4 g b a8 a g4
 		d8( e) g4. g8 b4 d,8( e) g g4. g2
+		\bar "|."
+		
 	}
 }
 
