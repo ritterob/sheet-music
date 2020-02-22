@@ -43,10 +43,13 @@ soprano = \transpose g g {
 		g \mark "Refrain" g g g b a8 a g4 b8(a16 g)
 		a4 a8( g) a4 b8( d) e4 d8 d b( a) b( a16 g)
 		g4 g8( e) g4 g b a8 a g4
-		d8( e) g4. g8 b4\fermata d,8( e) g g4. g2
+		d8( e) g4. g8 b4\fermata d,8( e) g g4. g2^\markup {\italic "Fine"}
 		\bar "|."
 		b4 b b8( a) g4 a b a8( g) d8( e) g4. g8 b4 d,8( e) g g4. g2
 		b4 b b8( a) g4 a b a8( g) d8( e) g4. g8 b4 d,8( e) g g4. g2
+		\once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+		\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+		\mark \markup {\italic "To Refrain"}
 		\bar "||"
 	}
 }
