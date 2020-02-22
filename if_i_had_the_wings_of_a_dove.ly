@@ -65,6 +65,7 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	\repeat unfold {\28 1}
 }
 
 
