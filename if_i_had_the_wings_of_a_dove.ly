@@ -5,7 +5,7 @@
  	composer = "African-American Spiritual, Arr. R.R."
  	poet = "Traditional"
 	meter = "Stanzas 3 & 4 by Rob Ritter"
-	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
+	copyright = \markup { "Arrangement Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
 }
 
