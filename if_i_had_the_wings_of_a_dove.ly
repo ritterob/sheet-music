@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key g \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	\partial 4
+ 	%\partial 4
 }
 
 
@@ -37,26 +37,38 @@ lead = {
 }
 
 
-soprano = \relative c'' {
- 	\global
-	c
+soprano = \transpose g g {
+	\relative c'' {
+ 		\global
+		g \mark "Refrain" g g g b a8 a g4 b8(a16 g)
+		a4 a8( g) a4 b8( d) e4 d8 d b( a) b( a16 g)
+		g4 g8( e) g4 g b a8 a g4
+		d8( e) g4. g8 b4 d,8( e) g g4. g2
+	}
 }
 
 
-alto = \relative c' {
-	\global
+alto = \transpose g g {
+	\relative c'' {
+ 		\global
+		
+	}
 }
 
 
-tenor = \relative c' {
-	\global
-	\clef "bass"
+tenor = \transpose g g {
+	\relative c'' {
+ 		\global
+		
+	}
 }
 
 
-bass = \relative c {
-	\global
-	\clef "bass"
+bass = \transpose g g {
+	\relative c'' {
+ 		\global
+		
+	}
 }
 
 
@@ -77,7 +89,7 @@ verseOne = \lyricmode {
 
 
 verseTwo = \lyricmode {
-	\repeat unfold 28{\skip 1}
+	\repeat unfold 35{\skip 1}
 	\set stanza = "2."
 	Ju -- dah’s daugh -- ters wept and moaned
 	(I’d fly a -- way and be at rest.)
@@ -87,7 +99,7 @@ verseTwo = \lyricmode {
 
 
 verseThree = \lyricmode {
-	\repeat unfold 28{\skip 1}
+	\repeat unfold 35{\skip 1}
 	\set stanza = "3."
 	Chil -- dren, let your voic -- es sing
 	(I’d fly a -- way and be at rest.)
@@ -97,7 +109,7 @@ verseThree = \lyricmode {
 
 
 verseFour = \lyricmode {
-	\repeat unfold 28{\skip 1}
+	\repeat unfold 35{\skip 1}
 	\set stanza = "4."
 	Soon I’ll tell this world good- bye.
 	(I’ll fly a -- way and be at rest.)
