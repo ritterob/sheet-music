@@ -1,10 +1,10 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
-	%meter = ""
+ 	title = "If I Had the Wings of a Dove"
+ 	composer = "African-American Spiritual, Arr. R.R."
+ 	poet = "Traditional"
+	meter = "Stanzas 3 & 4 by Rob Ritter"
 	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
 	tagline = ""
 }
@@ -64,23 +64,45 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
+	If I had the wings of a dove, o
+	If I had the wings of a dove, o 
+	If I had the wings of a dove
+	I’d fly a -- way and be at rest.
 	\set stanza = "1."
-	\repeat unfold {\28 1}
+	Ma -- ry had a ho -- ly Son.
+	(I’d fly a -- way and be at rest.)
+	On the cross they had Him hung.
+	(I’d fly a -- way and be at rest.)
 }
 
 
 verseTwo = \lyricmode {
+	\repeat unfold 28{\skip 1}
 	\set stanza = "2."
+	Ju -- dah’s daugh -- ters wept and moaned
+	(I’d fly a -- way and be at rest.)
+	When their dying sav -- ior groaned.
+	(I’d fly a -- way and be at rest.)
 }
 
 
 verseThree = \lyricmode {
+	\repeat unfold 28{\skip 1}
 	\set stanza = "3."
+	Chil -- dren, let your voic -- es sing
+	(I’d fly a -- way and be at rest.)
+	Praise to God, the ris -- en King!
+	(I’d fly a -- way and be at rest.)
 }
 
 
 verseFour = \lyricmode {
+	\repeat unfold 28{\skip 1}
 	\set stanza = "4."
+	Soon I’ll tell this world good- bye.
+	(I’ll fly a -- way and be at rest.)
+	Wings I’ll spread and home I’ll fly! 
+	(I’ll fly a -- way and be at rest.)
 }
 
 
