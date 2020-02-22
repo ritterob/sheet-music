@@ -3,8 +3,8 @@
 \header {
  	title = "If I Had the Wings of a Dove"
  	composer = "African-American Spiritual, Arr. R.R."
- 	poet = "Traditional"
-	meter = "Stanzas 3 & 4 by Rob Ritter"
+ 	poet = "Stanzas 3 & 4 by Rob Ritter"
+	%meter = ""
 	copyright = \markup { "Arrangement Copyright" \char ##x00A9 "2004 by Rob Ritter" }
 	tagline = ""
 }
@@ -43,9 +43,11 @@ soprano = \transpose g g {
 		g \mark "Refrain" g g g b a8 a g4 b8(a16 g)
 		a4 a8( g) a4 b8( d) e4 d8 d b( a) b( a16 g)
 		g4 g8( e) g4 g b a8 a g4
-		d8( e) g4. g8 b4 d,8( e) g g4. g2
+		d8( e) g4. g8 b4\fermata d,8( e) g g4. g2
 		\bar "|."
-		
+		b4 b b8( a) g4 a b a8( g) d8( e) g4. g8 b4 d,8( e) g g4. g2
+		b4 b b8( a) g4 a b a8( g) d8( e) g4. g8 b4 d,8( e) g g4. g2
+		\bar "||"
 	}
 }
 
@@ -91,7 +93,7 @@ verseOne = \lyricmode {
 
 
 verseTwo = \lyricmode {
-	\repeat unfold 35{\skip 1}
+	\repeat unfold 34{\skip 1}
 	\set stanza = "2."
 	Ju -- dah’s daugh -- ters wept and moaned
 	(I’d fly a -- way and be at rest.)
@@ -101,7 +103,7 @@ verseTwo = \lyricmode {
 
 
 verseThree = \lyricmode {
-	\repeat unfold 35{\skip 1}
+	\repeat unfold 34{\skip 1}
 	\set stanza = "3."
 	Chil -- dren, let your voic -- es sing
 	(I’d fly a -- way and be at rest.)
@@ -111,7 +113,7 @@ verseThree = \lyricmode {
 
 
 verseFour = \lyricmode {
-	\repeat unfold 35{\skip 1}
+	\repeat unfold 34{\skip 1}
 	\set stanza = "4."
 	Soon I’ll tell this world good- bye.
 	(I’ll fly a -- way and be at rest.)
