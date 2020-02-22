@@ -64,16 +64,19 @@ alto = \transpose g g {
 
 
 tenor = \transpose g g {
-	\relative c'' {
+	\relative c' {
  		\global
+		\clef bass
 		
 	}
 }
 
 
 bass = \transpose g g {
-	\relative c'' {
+	\relative c {
  		\global
+		\clef bass
+		g4 g b g g b8 d g,4 g 
 		
 	}
 }
