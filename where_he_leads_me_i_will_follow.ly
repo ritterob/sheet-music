@@ -44,7 +44,7 @@ soprano = \relative c'' {
 	f8 a c4. c8 d4. c8 c bes~ bes2
 	f8 g a8 c,4. a'8 c,4. 
 	\time 2/4
-	g'4. f8 
+	g' f8 
 	\time 4/4
 	f2.
 	\bar "||" \break
@@ -53,7 +53,7 @@ soprano = \relative c'' {
 	f8 a c4. c8 d4. c8 c bes~ bes2
 	f8 g a8 c,4. a'8 c,4. 
 	\time 2/4
-	g'4. f8 
+	g' f8 
 	\time 4/4
 	f2.
 	\bar "|."
@@ -65,17 +65,25 @@ alto = \relative c' {
 	c8 c f4. f8 f4. f8 f e~ e2
 	c8 c e4. f8 f4. e8 c c~ c2
 	f8 f f4. f8 f4. f8 ees d~ d2
-	d8 des c8 c4. c8 c4. c4. c8 c2.
+	d8 des c8 c4. c8 c4. c c8 c2.
 	c8 c f4. f8 f4. f8 f e~ e2
 	c8 c e4. f8 f4. e8 c c~ c2
 	f8 f f4. f8 f4. f8 ees d~ d2
-	d8 des c8 c4. c8 c4. c4. c8 c2.
+	d8 des c8 c4. c8 c4. c c8 c2.
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	a8 a c4. c8 d4. c8 c c~ c2
+	bes8 bes bes4. a8 c4. bes8 bes a~ a2
+	a8 c a4. a8 bes4. a8 bes f~ f2
+	f8 f f a4. f8 a4. bes a8 a2.
+	a8 a c4. c8 d4. c8 c c~ c2
+	bes8 bes bes4. a8 c4. bes8 bes a~ a2
+	a8 c a4. a8 bes4. a8 bes f~ f2
+	f8 f f a4. f8 a4. bes a8 a2.
 }
 
 
