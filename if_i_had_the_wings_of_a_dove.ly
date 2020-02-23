@@ -61,7 +61,11 @@ alto = \transpose g g {
 		b4 c b b d c8 c b4 b8( d)
 		fis4 fis fis e8( fis) g4 g8 g d4 c
 		b4 c b b d d8( d) e4
-		d8( c) b4. b8 d4 d4 c8 c4. b2		
+		d8( c) b4. b8 d4 d4 c8 c4. b2
+		d4 d d8( c) b4 c d c8( b)
+		d( c) b4. b8 d4 d c8 c4. d2
+		d4 d d8( c) b4 c d c8( b)
+		d( c) b4. b8 d4 d4 c8 c4. b2
 	}
 }
 
@@ -73,7 +77,11 @@ tenor = \transpose g g {
 		d'4 e d d8( e) g4 e8 g g4 b
 		d a8( b) d4 d8( b) c4 b8 b a4 d,8( e)
 		g4 e d d8( e) g4 g8 fis e4
-		g4 b8( d4) e8 d4 b8( a) g e4. d2		
+		g4 b8( d4) e8 d4 b8( a) g e4. d2
+		R1 r2.
+		g4 b4. b8 g4 b8( a) g e4. g2
+		R1 r2.
+		g4 b4. b8 g4 b8( a) g e4. g2
 	}
 }
 
@@ -85,7 +93,11 @@ bass = \transpose g g {
 		g4 c b a b d8 d g,4 g8( b)
 		d4 d d e8( d) g4 g8 g fis4 d4
 		g, c b a b a8 a b4\fermata
-		d g,4. a8 g4 g8( b) c a4. g2
+		d g,4. a8 g4\fermata g8( b) c a4. g2
+		R1 r2.
+		d'4 g,4. g8 g4 g8( b) c a4. g2
+		R1 r2.
+		d'4 g,4. g8 g4 g8( b) c a4. g2
 	}
 }
 
@@ -111,7 +123,7 @@ verseTwo = \lyricmode {
 	\set stanza = "2."
 	Ju -- dah’s daugh -- ters wept and moaned
 	(I’d fly a -- way and be at rest.)
-	When their dying sav -- ior groaned.
+	When their dy -- ing sav -- ior groaned.
 	(I’d fly a -- way and be at rest.)
 }
 
