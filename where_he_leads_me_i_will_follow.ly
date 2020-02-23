@@ -1,11 +1,11 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Where He Leads Me I Will Follow"
+ 	composer = "John S. Norris"
+ 	poet = "E.W. Blandly"
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
+	copyright = "Public Domain"
 	tagline = ""
 }
 
@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key f \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -65,6 +65,14 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	I can hear my Sav -- ior call -- ing,
+	I can hear my Sav -- ior call -- ing,
+	I can hear my Sav -- ior call -- ing,
+	“Take my cross and fol -- low, foll -- low Me.”
+	Where He leads me I will fol -- low,
+	Where He leads me I will fol -- low,
+	Where He leads me I will fol -- low,
+	I’ll go with Him, with Him all the way.
 }
 
 
