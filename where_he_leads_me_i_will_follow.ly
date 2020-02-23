@@ -39,12 +39,37 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	c,8. f16 a4. a8 bes4. a8 a g~ g2
+	c,8. e16 g4. f8 a4. g8 g8 f~ f2
+	f8. a16 c4. c8 d4. c8 c bes~ bes2
+	f8 g a8 c,4. a'8 c,4. 
+	\time 2/4
+	g'4. f8 
+	\time 4/4
+	f2.
+	\bar "||" \break
+	c8.\mark "Refrain" f16 a4. a8 bes4. a8 a g~ g2
+	c,8. e16 g4. f8 a4. g8 g8 f~ f2
+	f8. a16 c4. c8 d4. c8 c bes~ bes2
+	f8 g a8 c,4. a'8 c,4. 
+	\time 2/4
+	g'4. f8 
+	\time 4/4
+	f2.
+	\bar "|."
 }
 
 
 alto = \relative c' {
 	\global
+	c8. c16 f4. f8 f4. f8 f e~ e2
+	c8. c16 e4. f8 f4. e8 c c~ c2
+	f8. f16 f4. f8 f4. f8 ees d~ d2
+	d8 des c8 c4. c8 c4. c4. c8 c2.
+	c8. c16 f4. f8 f4. f8 f e~ e2
+	c8. c16 e4. f8 f4. e8 c c~ c2
+	f8. f16 f4. f8 f4. f8 ees d~ d2
+	d8 des c8 c4. c8 c4. c4. c8 c2.
 }
 
 
