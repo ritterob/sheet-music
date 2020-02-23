@@ -78,9 +78,9 @@ tenor = \transpose g g {
 		d a8( b) d4 d8( b) c4 b8 b a4 d,8( e)
 		g4 e d d8( e) g4 g8 fis e4
 		g4 b8( d4) e8 d4 b8( a) g e4. d2
-		R1 r2.
+		s1 s2.
 		g4 b4. b8 g4 b8( a) g e4. g2
-		R1 r2.
+		s1 s2.
 		g4 b4. b8 g4 b8( a) g e4. g2
 	}
 }
@@ -94,10 +94,11 @@ bass = \transpose g g {
 		d4 d d e8( d) g4 g8 g fis4 d4
 		g, c b a b a8 a b4\fermata
 		d g,4. a8 g4\fermata g8( b) c a4. g2
-		R1 r2.
-		d'4 g,4. g8 g4 g8( b) c a4. g2
-		R1 r2.
-		d'4 g,4. g8 g4 g8( b) c a4. g2
+		\override MultiMeasureRest.staff-position = #2
+		R1 d'2.\rest
+		d4 g,4. g8 g4 g8( b) c a4. g2
+		R1 d'2.\rest
+		d4 g,4. g8 g4 g8( b) c a4. g2
 	}
 }
 
