@@ -90,6 +90,14 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
+	f8 f f4. f8 f4. f8 c c~ c2
+	c8 c c4. c8 c4. c8 f f~ f2
+	f8 f f4. f8 f4. f8 bes, bes~ bes2
+	bes8 bes c c4. c8 c4. c f8 f2.
+	f8 f f4. f8 f4. f8 c c~ c2
+	c8 c c4. c8 c4. c8 f f~ f2
+	f8 f f4. f8 f4. f8 bes, bes~ bes2
+	bes8 bes c c4. c8 c4. c f8 f2.
 }
 
 
@@ -111,16 +119,28 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	I’ll go with Him throgh the gar -- den,
+	I’ll go with Him throgh the gar -- den,
+	I’ll go with Him throgh the gar -- den,
+	I’ll go with Him, with Him all the way.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	I’ll go with Him through the judg -- ment,
+	I’ll go with Him through the judg -- ment,
+	I’ll go with Him through the judg -- ment,
+	I’ll go with Him, with Him all the way.
 }
 
 
 verseFour = \lyricmode {
 	\set stanza = "4."
+	He will give me grace and glo -- ry,
+	He will give me grace and glo -- ry,
+	He will give me grace and glo -- ry,
+	He’ll go with me, with me all the way.
 }
 
 
