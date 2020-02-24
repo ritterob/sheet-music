@@ -75,7 +75,7 @@ tenor = \relative c' {
 	des' des des c8. aes16 aes8 aes aes aes aes2.
 	aes4 c4. bes8 des4( c2)
 	bes4 aes g8( c) bes4( aes) g g8 g aes4 aes g( aes bes)
-	aes f8( g) aes4 aes4. f8 g aes aes4( c4.) bes8 bes4( aes8)\fermata
+	aes f8( g) aes4 aes4. f8 g aes aes4( c4.) bes8 bes4( aes8)
 	f2 ees
 }
 
@@ -88,7 +88,7 @@ bass = \relative c {
 	ees8 f g aes8. aes,16 bes8 c des f aes4( aes, c)
 	ees ees4. ees8 ees4( aes2)
 	g4 f ees d2 ees4 bes8 bes bes4 bes ees2.
-	aes,4 bes c des4. des8 des des ees2 ees4 ees( aes,8)
+	aes,4 bes c des4. des8 des des ees2 ees4 ees( aes,8)\fermata
 	des2 aes
 }
 
