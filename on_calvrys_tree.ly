@@ -83,7 +83,7 @@ verseOne = \lyricmode {
 	\set stanza = "1."
 	On Cal -- v’ry’s tree Mes -- si -- ah hung,
 	A world of grief to bear—
-	No law tran -- gressed nor wrong He’d done,
+	No law trans -- gressed nor wrong He’d done,
 	Yet God for -- sook Him there.
 	For sin in -- car -- nate He be -- came,
 	The vil -- est e -- vil, He—
