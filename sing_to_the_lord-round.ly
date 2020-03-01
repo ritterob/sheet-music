@@ -12,7 +12,7 @@
 \paper {
 	#(set-paper-size "letter")
 	indent = 0
-	%page-count = #1
+	page-count = #1
 	print-page-number = "false"
 }
 
@@ -20,7 +20,7 @@
 global = {
  	\key aes \major
  	\time 6/4
-	\aikenHeads
+	%\aikenHeads
 	\huge
 	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	%\partial 4
