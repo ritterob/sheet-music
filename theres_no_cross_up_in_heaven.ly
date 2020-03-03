@@ -82,6 +82,14 @@ tenor = \relative c' {
 bass = \relative c {
 	\global
 	\clef "bass"
+	ees4 bes8 ees4. ees ees4 bes8 ees4. ees ees4( ees8) ees4. ees bes ees2.
+	ees4 ees8 bes4. bes bes bes bes bes4( bes8) ees4. ees bes ees2.
+	bes4 bes8 ees4. ees bes4( bes8) ees4. ees ees4( ees8) ees4. ees bes ees2.
+	ees4 ees8 bes4. bes bes bes bes bes4 bes8 ees4. ees bes ees2.
+	ees,8( f) g aes2. aes4 aes8 aes4. bes c4 d8 ees4. ees bes ees2.
+	ees,8( f) g aes2. aes4 aes8 aes4. bes c4 d8 ees4. ees ees bes2.
+	bes4 bes8 ees4. ees bes ees ees ees4 ees8 ees4. ees bes ees2.
+	ees4 ees8 bes4. bes bes4 bes8 bes4. bes bes ees4. ees bes ees2
 }
 
 
