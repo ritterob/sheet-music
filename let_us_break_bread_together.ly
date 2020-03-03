@@ -90,8 +90,6 @@ verseOne = \lyricmode {
 	\repeat unfold 3 {\skip 1}
 	Let us break bread to -- geth -- er on our knees.
 	\repeat unfold 3 {\skip 1}
-	When I fall on my knees, with my face to the ris -- ing sun,
-	O Lord, have mer -- cy on me.
 }
 
 
@@ -101,6 +99,8 @@ verseTwo = \lyricmode {
 	(on our knees)
 	Let us drink wine to -- geth -- er on our knees.
 	(on our knees)
+	When I fall on my knees, with my face to the ris -- ing sun,
+	O Lord, have mer -- cy on me.
 }
 
 
