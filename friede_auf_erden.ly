@@ -41,7 +41,8 @@ lead = {
 "s1" = \relative c'' {
  	\global
 	b4\rest e,2 d4 d e f d g f f2~ f4 e e d
-	c' d a g g f ees d cis'( ees2) d,4 d2 c! b'4\rest c,2 d4 
+	c' d a g g f ees d cis'( ees2) d,4 d2 c! b'4\rest c,2 d4
+	d ees ees d'
 }
 
 
@@ -56,6 +57,7 @@ lead = {
 	\global
 	b'4\rest d,( c) bes bes c d c c d c e d e a, bes
 	e f d e c d bes c g' fis e! fis g a a gis c,!2 b'2\rest
+	b1\rest
 }
 
 
@@ -72,6 +74,7 @@ lead = {
 	\clef "treble_8"
 	a2 g g f e4 d a' c a2 f \break
 	g4 a f g e d g fis g a a bes a2 bes a4 gis e! bes' \break
+	bes( c!) bes( g) \bar "||" \key d \major
 }
 
 
@@ -89,6 +92,7 @@ lead = {
 	\clef "bass"
 	d1\rest d4\rest bes2 a4 a bes c a d c c bes
 	d c c bes a bes c a ees' d c bes8( c) d2 e! f4 d bes!  aes
+	g bes! a'( ees)
 }
 
 "b2" = \relative c {
