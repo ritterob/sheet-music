@@ -47,6 +47,8 @@ lead = {
 
 "s2" = \relative c'' {
 	\global
+	\repeat unfold 4 {\skip 1}
+	\repeat unfold 5 {\skip 1}
 }
 
 
@@ -59,6 +61,8 @@ lead = {
 
 "a2" = \relative c' {
 	\global
+	\repeat unfold 4 {\skip 1}
+	\repeat unfold 5 {\skip 1}
 }
 
 
@@ -75,6 +79,8 @@ lead = {
 	\global
 	\lead
 	\clef "treble_8"
+	\repeat unfold 4 {\skip 1}
+	\repeat unfold 5 {\skip 1}
 }
 
 
@@ -88,6 +94,8 @@ lead = {
 "b2" = \relative c {
 	\global
 	\clef "bass"
+	\repeat unfold 4 {\skip 1}
+	\repeat unfold 5 {\skip 1}
 }
 
 
