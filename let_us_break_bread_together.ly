@@ -1,8 +1,8 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
+ 	title = "Let Us Break Bread Together"
+ 	composer = "African-American Spiritual"
  	poet = ""
 	%meter = ""
 	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key f \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 2
 }
 
 
@@ -39,12 +39,17 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	c,4 d f2 f4. d8 f a4. g4 g f1~ f2
+	f4 a c2 c4. a8 c e4. d4 d c1~ c2 \bar "|" \break
+	f,4 a c2 c4 c c2 d4 c bes bes8 g bes4 bes bes2
+	c4( d) a2 a f8 a4. g2 f1~ f2 \bar "|."
+
 }
 
 
 alto = \relative c' {
 	\global
+	c4 d c2 d4. d8 d d4. d4 e c2 d4 d c2
 }
 
 
@@ -65,16 +70,30 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Let us break bread to -- geth -- er on our knees;
+	Let us break bread to -- geth -- er on our knees.
+	When I fall on my knees, with my face to the ris -- ing sun,
+	O Lord, have mer -- cy on me.
+}
+
+
+extraText = \lyricmode {
+	\unfold repeat 8 {\skip 1}
+	
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	Let us drink wine to -- geth -- er on our knees;
+	Let us drink wine to -- geth -- er on our knees.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	Let us praise God to -- geth -- er on our knees;
+	Let us praise God to -- geth -- er on our knees.
 }
 
 
