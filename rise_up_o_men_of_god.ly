@@ -1,9 +1,9 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "Rise Up, O Men of God"
+ 	composer = "William H. Walter"
+ 	poet = "William Pierson Merrill"
 	%meter = ""
 	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
 	tagline = ""
@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key bes \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -39,7 +39,10 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	f,4 bes f d f g2.
+	f4 g8( a) bes4 a g f2.
+	c'4 d c8( d) ees4 d c bes a
+	f g8( a) bes4 bes a bes2. \bar "|."
 }
 
 
@@ -65,21 +68,37 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Rise up, O men of God!
+	Have done with less -- er things;
+	Give heart and soul and mind and strength
+	To serve the King of kings.
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	Rise up, O men of God!
+	His king -- dom tar -- ries long;
+	Bring in the day of broth -- er -- hood
+	And end the night of wrong.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	Rise up, O men of God!
+	The church for you doth wait;
+	Her strength un -- e -- qual to her task,
+	Rise up and make her great!
 }
 
 
 verseFour = \lyricmode {
 	\set stanza = "4."
+	Lift high the cross of Christ!
+	Tread where his feet have trod;
+	As broth -- ers of the Son of Man,
+	Rise up, O men of God.
 }
 
 
@@ -112,6 +131,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 2 = 52
 	}
 }
