@@ -19,7 +19,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key d \major
  	\time 4/4
 	\aikenHeads
   	\huge
@@ -64,7 +64,16 @@ bass = \relative c {
 
 
 verseOne = \lyricmode {
+	Soon -- a will be done a -- with the trou -- bles of the world,
+	Trou -- bles of the world,__
+	The trou -- bles of the world,
+	Soon -- a will be done a -- with the trou -- bles of the world,
+	Goin’ home to live with God.
 	\set stanza = "1."
+	No more weep -- ing and a -- wail -- ing,
+	No more weep -- ing and a -- wail -- ing,
+	No more weep -- ing and a -- wail -- ing,
+	I’m goin’ to live with God.
 }
 
 
