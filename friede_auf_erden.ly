@@ -23,6 +23,7 @@ global = {
  	\time 4/4
 	%\aikenHeads
   	\huge
+	\set Score.markFormatter = #format-mark-numbers
 	%\set Timing.beamExceptions = #'()
 	%\set Timing.baseMoment = #(ly:make-moment 1/4)
 	%\set Timing.beatStructure = #'(1 1 1 1)
@@ -42,7 +43,8 @@ lead = {
  	\global
 	b4\rest e,2 d4 d e f d g f f2~ f4 e e d
 	c' d a g g f ees d cis'( ees2) d,4 d2 c! b'4\rest c,2 d4
-	d ees ees d'
+	d ees ees d' \key d \major a1~ a4 a2 g4 g d' ais b c c2 b4
+	b e b cis! d2. dis4 b4\rest e2 f4 e( a2) a,4 c( bes2) a4 a2. gis4 \breathe
 }
 
 
@@ -50,6 +52,8 @@ lead = {
 	\global
 	\repeat unfold 4 {\skip 1}
 	\repeat unfold 5 {\skip 1}
+	\repeat unfold 5 {\skip 1}
+	\repeat unfold 6 {\skip 1}
 }
 
 
@@ -57,7 +61,8 @@ lead = {
 	\global
 	b'4\rest d,( c) bes bes c d c c d c e d e a, bes
 	e f d e c d bes c g' fis e! fis g a a gis c,!2 b'2\rest
-	b1\rest
+	b1\rest \key d \major cis,4( d) dis( e) e d! cis d g2( fis4) f(~ f e) d( dis)
+	g2( fis!4) eis e!( dis) fis( eis) fis g! g gis a( g!2) fis4 g2. f4  cis!( fis!2) b,4 \breathe
 }
 
 
@@ -65,6 +70,8 @@ lead = {
 	\global
 	\repeat unfold 4 {\skip 1}
 	\repeat unfold 5 {\skip 1}
+	\repeat unfold 5 {\skip 1}
+	\repeat unfold 6 {\skip 1}
 }
 
 
@@ -74,7 +81,8 @@ lead = {
 	\clef "treble_8"
 	a2 g g f e4 d a' c a2 f \break
 	g4 a f g e d g fis g a a bes a2 bes a4 gis e! bes' \break
-	bes( c!) bes( g) \bar "||" \key d \major
+	bes( c!) bes( g) \bar "||" \key d \major \mark \default g2. b4\rest b1\rest e,4( fis) g( gis) a g! fis a \break
+
 }
 
 
@@ -84,6 +92,8 @@ lead = {
 	\clef "treble_8"
 	\repeat unfold 4 {\skip 1}
 	\repeat unfold 5 {\skip 1}
+	\repeat unfold 5 {\skip 1}
+	\repeat unfold 6 {\skip 1}
 }
 
 
@@ -92,7 +102,7 @@ lead = {
 	\clef "bass"
 	d1\rest d4\rest bes2 a4 a bes c a d c c bes
 	d c c bes a bes c a ees' d c bes8( c) d2 e! f4 d bes!  aes
-	g bes! a'( ees)
+	g bes! a'( ees) \key d \major e!2( cis! fis b,) e( cis fis b,)
 }
 
 "b2" = \relative c {
@@ -100,6 +110,8 @@ lead = {
 	\clef "bass"
 	\repeat unfold 4 {\skip 1}
 	\repeat unfold 5 {\skip 1}
+	\repeat unfold 5 {\skip 1}
+	\repeat unfold 6 {\skip 1}
 }
 
 
