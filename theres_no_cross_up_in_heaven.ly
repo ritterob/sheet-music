@@ -1,11 +1,11 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
- 	poet = ""
+ 	title = "There’s No Cross Up In Heaven"
+ 	composer = "R.R."
+ 	poet = "Rob Ritter"
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
+	%copyright = \markup { "Copyright" \char ##x00A9 "2002 by Rob Ritter" }
 	tagline = ""
 }
 
@@ -19,8 +19,8 @@
 
 
 global = {
- 	\key c \major
- 	\time 4/4
+ 	\key ees \major
+ 	\time 9/8
 	\aikenHeads
   	\huge
 	\set Timing.beamExceptions = #'()
@@ -28,7 +28,7 @@ global = {
 	\set Timing.beatStructure = #'(1 1 1 1)
   	\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	%\partial 4
+ 	\partial 4.
 }
 
 
@@ -39,7 +39,7 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	c
+	ees,4 f8 g4. ees ees4 aes8
 }
 
 
