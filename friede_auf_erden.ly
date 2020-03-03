@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
+ 	title = "Friede auf Erden"
  	composer = ""
  	poet = ""
 	%meter = ""
@@ -12,102 +12,103 @@
 
 \paper {
 	#(set-paper-size "letter")
-	indent = 0
+	%indent = 0
   	%page-count = #1
 	print-page-number = "false"
 }
 
 
 global = {
- 	\key c \major
+ 	\key f \major
  	\time 4/4
-	\aikenHeads
+	%\aikenHeads
   	\huge
-	\set Timing.beamExceptions = #'()
-	\set Timing.baseMoment = #(ly:make-moment 1/4)
-	\set Timing.beatStructure = #'(1 1 1 1)
-  	\override Score.BarNumber.break-visibility = ##(#f #f #f)
+	%\set Timing.beamExceptions = #'()
+	%\set Timing.baseMoment = #(ly:make-moment 1/4)
+	%\set Timing.beatStructure = #'(1 1 1 1)
+  	%\override Score.BarNumber.break-visibility = ##(#f #f #f)
  	\set Staff.midiMaximumVolume = #1.0
- 	\partial 4
+ 	%\partial 4
 }
 
 
 lead = {
-	\set Staff.midiMinimumVolume = #3.0
+	\set Staff.midiMinimumVolume = #1.0
+	\set Staff.midiInstrument = #"oboe"
 }
 
 
-soprano = \relative c'' {
+"s1" = \relative c'' {
  	\global
-	c
+	b4\rest e,2 d4 d e f d g f f2~ f4 e e d
+	c' d a g g f ees d cis'( ees2) d,4 d2 c! b'4\rest c,2 d4 
 }
 
 
-alto = \relative c' {
+"s2" = \relative c'' {
 	\global
 }
 
 
-tenor = \relative c' {
+"a1" = \relative c' {
+	\global
+	
+}
+
+
+"a2" = \relative c' {
+	\global
+}
+
+
+"t1" = \relative c' {
+	\global
+	\lead
+	\clef "treble_8"
+	a2 g g f e4 d a' c a2 f \break
+	g4 a f g e d g fis g a a bes a2 bes a4 gis e bes' \break
+}
+
+
+"t2" = \relative c' {
+	\global
+	\lead
+	\clef "treble_8"
+}
+
+
+"b1" = \relative c {
 	\global
 	\clef "bass"
 }
 
-
-bass = \relative c {
+"b2" = \relative c {
 	\global
 	\clef "bass"
-}
-
-
-% Some useful characters: – — “ ” ‘ ’
-
-
-verseOne = \lyricmode {
-	\set stanza = "1."
-}
-
-
-verseTwo = \lyricmode {
-	\set stanza = "2."
-}
-
-
-verseThree = \lyricmode {
-	\set stanza = "3."
-}
-
-
-verseFour = \lyricmode {
-	\set stanza = "4."
 }
 
 
 \score{
 	\new ChoirStaff <<
 		\new Staff \with {midiInstrument = #"acoustic grand"} <<
-			\new Voice = "soprano" {\voiceOne \soprano}
-			\new Voice = "alto" {\voiceTwo \alto}
+			\new Voice = "s1" {\voiceOne \"s1"}
+			\new Voice = "s2" {\voiceTwo \"s2"}
 		>>
-		
-		\new Lyrics {
-			\lyricsto "soprano" \verseOne
-		}
-		\new Lyrics {
-			\lyricsto "soprano" \verseTwo
-		}
-		\new Lyrics {
-			\lyricsto "soprano" \verseThree
-		}
-		\new Lyrics {
-			\lyricsto "soprano" \verseFour
-		}
 		
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
-			\new Voice = "tenor" {\voiceThree \tenor}
-			\new Voice = "bass" {\voiceFour \bass}
+			\new Voice = "a1" {\voiceThree \"a1"}
+			\new Voice = "a2" {\voiceFour \"a2"}
 		>>
 		
+		\new Staff \with {midiInstrument = #"acoustic grand"} <<
+			\new Voice = "t1" {\voiceOne \"t1"}
+			\new Voice = "t2" {\voiceTwo \"t2"}
+		>>
+		
+		\new Staff \with {midiInstrument = #"acoustic grand"} <<
+			\new Voice = "b1" {\voiceOne \"b1"}
+			\new Voice = "b2" {\voiceTwo \"b2"}
+		>>
 	>>
 	
 	\layout{}
