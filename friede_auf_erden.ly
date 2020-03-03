@@ -82,7 +82,7 @@ lead = {
 	a2 g g f e4 d a' c a2 f \break
 	g4 a f g e d g fis g a a bes a2 bes a4 gis e! bes' \break
 	bes( c!) bes( g) \bar "||" \key d \major \mark \default g2. b4\rest b1\rest e,4( fis) g( gis) a g! fis a \break
-
+	g( b) gis a ais2 a d!4 cis c b e2 dis d!4 dis e f e( dis) d2 \breathe \bar "||"
 }
 
 
@@ -93,7 +93,7 @@ lead = {
 	\repeat unfold 4 {\skip 1}
 	\repeat unfold 5 {\skip 1}
 	\repeat unfold 5 {\skip 1}
-	\repeat unfold 6 {\skip 1}
+	\repeat unfold 3 {\skip 1} c2 b \repeat unfold 2 {\skip 1}
 }
 
 
@@ -103,7 +103,9 @@ lead = {
 	d1\rest d4\rest bes2 a4 a bes c a d c c bes
 	d c c bes a bes c a ees' d c bes8( c) d2 e! f4 d bes!  aes
 	g bes! a'( ees) \key d \major e!2( cis! fis b,) e( cis fis b,)
+	e( cis fis b,) e( cis fis b,) e( cis fis b,) \breathe
 }
+
 
 "b2" = \relative c {
 	\global
