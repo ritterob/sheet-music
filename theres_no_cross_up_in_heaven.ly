@@ -54,7 +54,14 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
-
+	ees4 d8 ees4. bes c4 d8 ees4. bes ees4( ees8) ees4. bes d ees2.
+	ees4 ees8 d4. d d d d d4( d8) c4. c d ees2.
+	c4 d8 ees4. bes c4( d8) ees4. bes ees4( ees8) ees4. bes d ees2.
+	ees4 ees8 d4. d d4( d8) d4. d d4 d8 bes4. ees d bes2.
+	g'4 bes8 aes2. aes4 bes8 c4. bes aes4 aes8 aes4. g ees g2.
+	g4 bes8 aes2. aes4 bes8 c4. bes aes4 aes8 aes4. g ees d2.
+	c4 d8 ees4. bes c4( d8) ees4. bes ees4 ees8 ees4. bes d ees2.
+	ees4 ees8 d4. d d4 d8 d4. d d bes ees d bes2
 }
 
 
