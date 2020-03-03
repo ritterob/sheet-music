@@ -48,18 +48,30 @@ soprano = \relative c'' {
 
 alto = \relative c' {
 	\global
+	f4 bes f d d ees2.
+	d4 ees f f e f2.
+	f4 f f ees f g g f
+	f ees f f ees d2.
 }
 
 
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	f,4 bes f d bes' bes2.
+	bes4 bes8( c) d4 c bes a2.
+	a4 bes c bes bes ees d c
+	bes bes8( c) d4 c c bes2.
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	f4 bes f d bes ees2.
+	bes4 ees bes c c f2.
+	f4 bes a g f ees e f
+	d ees d8( ees) f4 <f f,> bes,2.
 }
 
 
@@ -70,7 +82,7 @@ verseOne = \lyricmode {
 	\set stanza = "1."
 	Rise up, O men of God!
 	Have done with less -- er things;
-	Give heart and soul and mind and strength
+	Give heart and mind and soul and strength
 	To serve the King of kings.
 }
 
