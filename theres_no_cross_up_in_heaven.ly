@@ -39,12 +39,22 @@ lead = {
 
 soprano = \relative c'' {
  	\global
-	ees,4 f8 g4. ees ees4 aes8
+	ees,4 f8 g4. ees ees4 aes8 g4. ees bes'4( c8) bes4. ees, aes g2.
+	g4 aes8 g4. f g aes g f4( f8) ees4. ees f g2.
+	ees4 f8 g4. ees ees4( aes8) g4. ees bes'4( c8) bes4. ees, aes g2.
+	g4 aes8 g4. f f4( g8) aes4. g f4 f8 ees4. g f ees2.
+	\bar "||"
+	ees'4 \mark "Chorus" d8 c2. c4 d8 ees4. d c4 c8 c4. bes g bes2.
+	ees4 d8 c2. c4 d8 ees4. d c4 c8 c4. bes g f2.
+	ees4 f8 g4. ees ees4( aes8) g4. ees bes'4 c8 bes4. ees, aes g2.
+	g4 aes8 g4. f f4 g8 aes4. g f ees g f ees2
+	\bar "|."
 }
 
 
 alto = \relative c' {
 	\global
+
 }
 
 
@@ -65,16 +75,32 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	There’s a cross up -- on a hill -- top where Je -- sus was led,
+	Where the nails pierced His hands and the thorns tore His head,
+	Where the noon -- tide brought_the dark -- ness that cov -- ered the sky,
+	Where the cru -- el crowds ga -- thered just to watch a Man die.
 }
 
 
 verseTwo = \lyricmode {
 	\set stanza = "2."
+	There’s a tomb with -- in a gar -- den where Je -- sus did lay,
+	Where the si -- lence of death seemed to hold its dark sway,
+	Where the stone was rolled back -- ward and_the an -- gel ap -- peared
+	Say -- ing “He is now ri -- sen, He is no long -- er here.”
+	There’s no cross up in Hea -- ven, for the vic -- t’ry’s been won,
+	There’s no death o -- ver Jor -- dan, on -- ly life in the Son,
+	There’s no dark -- ness in Glo -- ry where the Light e -- ver shines,
+	There’s no trou -- ble in my spi -- rit, for Je -- sus is mine.
 }
 
 
 verseThree = \lyricmode {
 	\set stanza = "3."
+	There’s a ta -- ble in His pre -- sence that_is spread for a feast,
+	Where the bless -- ed saints ga -- ther, from_the great -- est to least
+	To re -- mem -- ber the Sav -- ior and_the suff -- ’ring He bore
+	’Til He comes back to take us to that beau -- ti -- ful shore.
 }
 
 
@@ -112,6 +138,6 @@ verseFour = \lyricmode {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4. = 88
 	}
 }
