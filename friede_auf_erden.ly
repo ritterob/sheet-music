@@ -33,7 +33,7 @@ global = {
 
 
 lead = {
-	\set Staff.midiMinimumVolume = #1.0
+	%\set Staff.midiMinimumVolume = #1.0
 	\set Staff.midiInstrument = #"oboe"
 }
 
@@ -52,7 +52,8 @@ lead = {
 
 "a1" = \relative c' {
 	\global
-	
+	b'4\rest d,( c) bes bes c d c c d c e d e a, bes
+	e f d e c d bes c g' fis e! fis g a a gis c,!2 b'2\rest
 }
 
 
@@ -66,7 +67,7 @@ lead = {
 	\lead
 	\clef "treble_8"
 	a2 g g f e4 d a' c a2 f \break
-	g4 a f g e d g fis g a a bes a2 bes a4 gis e bes' \break
+	g4 a f g e d g fis g a a bes a2 bes a4 gis e! bes' \break
 }
 
 
@@ -80,6 +81,8 @@ lead = {
 "b1" = \relative c {
 	\global
 	\clef "bass"
+	d1\rest d4\rest bes2 a4 a bes c a d c c bes
+	d c c bes a bes c a ees' d c bes8( c) d2 e! f4 d bes!  aes
 }
 
 "b2" = \relative c {
@@ -113,6 +116,6 @@ lead = {
 	
 	\layout{}
 	\midi{
-		\tempo 4 = 88
+		\tempo 4 = 76
 	}
 }
