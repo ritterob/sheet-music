@@ -1,8 +1,8 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
+ 	title = "Soon-a Will Be Done"
+ 	composer = "African-American Spiritual"
  	poet = ""
 	%meter = ""
 	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
