@@ -3,6 +3,7 @@
 \header {
  	title = ""
  	composer = ""
+	%arranger = ""
  	poet = ""
 	%meter = ""
 	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
