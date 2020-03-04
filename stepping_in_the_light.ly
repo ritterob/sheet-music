@@ -1,10 +1,10 @@
 \version "2.18.2"
 
 \header {
- 	title = ""
- 	composer = ""
+ 	title = "Stepping in the Light"
+ 	composer = "William J. Kirkpatrick"
 	%arranger = ""
- 	poet = ""
+ 	poet = "Eliza E. Hewitt"
 	%meter = ""
 	%copyright = \markup { "Copyright" \char ##x00A9 "1988 by Rob Ritter" }
 	tagline = ""
@@ -20,7 +20,7 @@
 
 
 global = {
- 	\key c \major
+ 	\key des \major
  	\time 4/4
 	\aikenHeads
   	\huge
