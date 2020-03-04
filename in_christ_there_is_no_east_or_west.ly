@@ -2,7 +2,7 @@
 
 \header {
  	title = "In Christ There Is No East or West"
- 	composer = "African-American Spiritual"
+ 	composer = "African-American"
 	arranger = "adapt. by Harry T. Burleigh"
  	poet = "John Oxenham"
 	%meter = ""
