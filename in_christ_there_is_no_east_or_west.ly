@@ -59,12 +59,20 @@ alto = \relative c' {
 tenor = \relative c' {
 	\global
 	\clef "bass"
+	d,8( f) bes4 a bes g ees aes bes4.
+	bes8 bes4 bes g8( bes) a!4 f( g f)
+	bes8( a) bes4 bes8( c) d( bes) a4 f f f
+	g f8( bes4) bes8 bes( f) ees!4 d2.
 }
 
 
 bass = \relative c {
 	\global
 	\clef "bass"
+	bes4 bes ees d ees aes, c ees4.
+	bes8 ees4 g c, f bes,2.
+	g'8( f) bes( a) g4 f ees d c bes
+	ees f4. e8 f4 f, bes2.
 }
 
 
