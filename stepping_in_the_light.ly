@@ -66,6 +66,14 @@ bass = \relative c {
 
 verseOne = \lyricmode {
 	\set stanza = "1."
+	Try -- ing to walk in the steps of the Sav -- ior,
+	Try -- ing to fol -- low our Sav -- ior and King;
+	Shap -- ing our lives by His bless -- ed ex -- am -- ple,
+	Hap -- py, how hap -- py, the songs the we bring.
+	How beau -- ti -- ful to walk in the steps of the Sav -- ior,
+	Step -- ping in the light, step -- ping in the light,
+	How beau -- ti -- ful to walk in the steps of the Sav -- ior,
+	Led in paths of light.
 }
 
 
