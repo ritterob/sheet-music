@@ -21,7 +21,7 @@
 global = {
  	\key g \major
  	\time 4/4
-	\aikenHeads
+	%\aikenHeads
   	\huge
 	\set Timing.beamExceptions = #'()
 	\set Timing.baseMoment = #(ly:make-moment 1/4)
@@ -121,7 +121,7 @@ verseOne = \lyricmode {
 
 verseTwo = \lyricmode {
 	\repeat unfold 34{\skip 1}
-	% \set stanza = "2."
+	\set stanza = "2."
 	Ju -- dah’s daugh -- ters wept and moaned
 	(I’d fly a -- way and be at rest.)
 	When their dy -- ing sav -- ior groaned.
@@ -131,7 +131,7 @@ verseTwo = \lyricmode {
 
 verseThree = \lyricmode {
 	\repeat unfold 34{\skip 1}
-	\set stanza = "2."
+	\set stanza = "3."
 	Chil -- dren, let your voic -- es sing
 	(I’d fly a -- way and be at rest.)
 	Praise to God, the ris -- en King!
@@ -141,7 +141,7 @@ verseThree = \lyricmode {
 
 verseFour = \lyricmode {
 	\repeat unfold 34{\skip 1}
-	\set stanza = "3."
+	\set stanza = "4."
 	Soon I’ll tell this world good- bye.
 	(I’ll fly a -- way and be at rest.)
 	Wings I’ll spread and home I’ll fly! 
@@ -158,10 +158,10 @@ verseFour = \lyricmode {
 		
 		\new Lyrics {
 			\lyricsto "soprano" \verseOne
-		} %{
+		} 
 		\new Lyrics {
 			\lyricsto "soprano" \verseTwo
-		} %}
+		} 
 		\new Lyrics {
 			\lyricsto "soprano" \verseThree
 		}
