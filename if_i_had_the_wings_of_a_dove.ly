@@ -3,9 +3,9 @@
 \header {
  	title = "If I Had the Wings of a Dove"
  	composer = "African-American Spiritual, Arr. R.R."
- 	poet = "Stanzas 2 & 3 by Rob Ritter"
+ 	poet = "Stanzas 2 & 3 by Robert Ritter"
 	%meter = ""
-	copyright = \markup { "Arrangement Copyright" \char ##x00A9 "2004 by Rob Ritter" }
+	copyright = \markup { "Arrangement Copyright" \char ##x00A9 "2004 by Robert Ritter" }
 	tagline = ""
 }
 
