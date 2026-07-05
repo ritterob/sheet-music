@@ -3,9 +3,9 @@
 \header {
  	title = "There’s No Cross Up In Heaven"
  	composer = "R.R."
- 	poet = "Rob Ritter"
+ 	poet = "Robert Ritter"
 	%meter = ""
-	%copyright = \markup { "Copyright" \char ##x00A9 "2002 by Rob Ritter" }
+	copyright = \markup { "Copyright" \char ##x00A9 "2002 by Robert Ritter" }
 	tagline = ""
 }
 
@@ -21,7 +21,7 @@
 global = {
  	\key ees \major
  	\time 9/8
-	\aikenHeads
+	%\aikenHeads
   	\huge
 	\set Timing.beamExceptions = #'()
 	\set Timing.baseMoment = #(ly:make-moment 1/4)
@@ -127,9 +127,7 @@ verseThree = \lyricmode {
 }
 
 
-verseFour = \lyricmode {
-	\set stanza = "4."
-}
+
 
 
 \score{
@@ -147,9 +145,6 @@ verseFour = \lyricmode {
 		}
 		\new Lyrics {
 			\lyricsto "soprano" \verseThree
-		}
-		\new Lyrics {
-			\lyricsto "soprano" \verseFour
 		}
 		
 		\new Staff  \with {midiInstrument = #"acoustic grand"}<<
